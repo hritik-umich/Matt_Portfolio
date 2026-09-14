@@ -1,0 +1,305 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Matthew T. Patton, Ph.D. | Economist, Strategist, and Public Voice</title>
+<meta name="description" content="Matthew T. Patton, Ph.D. is an economist, strategist, and public voice advising governments, Fortune 500 companies, and global events on growth, fiscal impact, and economic development." />
+<meta name="theme-color" content="#0B1220" />
+
+<!-- Declare our own icon. Without this the browser falls back to
+     /favicon.ico, and on localhost that means whatever icon it has
+     cached for the port from some other project. -->
+<link rel="icon" href="img/favicon.svg" type="image/svg+xml" />
+<link rel="apple-touch-icon" href="img/favicon.svg" />
+
+<!-- Open Graph -->
+<meta property="og:title" content="Matthew T. Patton, Ph.D. | Economist, Strategist, and Public Voice" />
+<meta property="og:description" content="Portfolio of Matthew T. Patton, Ph.D., an economic development strategist advising governments, corporations, and global events on growth, site selection, and regional economics." />
+<meta property="og:type" content="website" />
+<meta property="og:image" content="/img/og-cover.jpg" />
+
+<!-- Fonts -->
+<link rel="preconnect" href="https://fonts.googleapis.com" />
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;600;700&family=IBM+Plex+Sans:wght@400;500;600&family=IBM+Plex+Mono:wght@500&display=swap" rel="stylesheet" />
+
+<link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+
+<!-- ============ NAV ============ -->
+<header class="site-header">
+  <nav class="nav" aria-label="Primary">
+    <a href="#top" class="nav__brand">Matthew Patton</a>
+    <button class="nav__toggle" id="navToggle" aria-expanded="false" aria-controls="navMenu" aria-label="Toggle menu">
+      <span></span><span></span><span></span>
+    </button>
+    <ul class="nav__menu" id="navMenu">
+      <li><a href="#about">About</a></li>
+      <li><a href="#experience">Trajectory</a></li>
+      <li><a href="#map">Field of Work</a></li>
+      <li><a href="#projects">Selected Work</a></li>
+      <li><a href="#dashboards">Public Voice</a></li>
+      <li><a href="#skills">Expertise</a></li>
+      <li><a href="#education">Education</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+    <a href="resume/Patton_Matthew_Business_CV.pdf" class="btn btn--ghost nav__resume" download>
+      Download Résumé
+    </a>
+  </nav>
+</header>
+
+<main id="top">
+
+  <!-- ============ HERO ============ -->
+  <section class="hero" id="about">
+    <div class="hero__intro">
+      <p class="hero__eyebrow">
+        <span class="hero__eyebrow-label">I am</span>
+        <span class="hero__eyebrow-animated" aria-label="an Economist, a Strategist, a Public Voice">
+          <span>an Economist</span>
+          <span>a Strategist</span>
+          <span>a Public Voice</span>
+        </span>
+      </p>
+      <h1 class="hero__name">Matthew T. Patton, Ph.D.</h1>
+      <p class="hero__bio">
+        Strategy executive and former academic with 15+ years turning rigorous economic, institutional, and workforce research into decisions that improve outcomes, for Fortune 500 companies, government agencies, universities, and communities in transition. As Executive Vice President at AngelouEconomics, I've directed a $9M+ project portfolio spanning site selection, economic diversification, and institutional strategy across 30+ states and countries. Earlier in my career, I led curriculum design, grant-funded STEM initiatives, and academic advising in higher education.
+      </p>
+      <p class="hero__bio">
+        What ties both halves of my career together: I build the analytical frameworks, IMPLAN modeling, GIS, quantitative and qualitative research, to prove what's actually working, then translate that evidence into strategy that boards, legislators, and communities can act on. I've helped a coal-dependent town reinvent its economy, advised university systems through institutional change, and testified before the Texas Legislature. I bring the same discipline, evidence first, people-centered outcomes always, whether the audience is a corporate boardroom or a classroom.
+      </p>
+      <div class="hero__actions">
+        <a href="resume/Patton_Matthew_Business_CV.pdf" class="btn btn--primary" download>Download Résumé</a>
+        <a href="#contact" class="btn btn--outline">Get in touch</a>
+      </div>
+    </div>
+    <div class="hero__visual">
+      <div class="hero__photo-wrap">
+        <img src="Image/Matt Photo-screen.jpg" alt="Matthew T. Patton, Ph.D." class="hero__photo" />
+      </div>
+      <!-- Stat values are filled from data/projects.json (stats block),
+           which is generated from data/AE Project Management.xlsx. -->
+      <div class="hero__stats" aria-label="Career highlights">
+        <div class="stat">
+          <span class="stat__value" id="statValue">$9.8M+</span>
+          <span class="stat__label">Project portfolio</span>
+        </div>
+        <div class="stat">
+          <span class="stat__value" id="statProjects">159</span>
+          <span class="stat__label">Engagements</span>
+        </div>
+        <div class="stat">
+          <span class="stat__value" id="statStudies">109</span>
+          <span class="stat__label">Economic impact studies</span>
+        </div>
+        <div class="stat">
+          <span class="stat__value" id="statPlaces">24</span>
+          <span class="stat__label">States</span>
+        </div>
+        <div class="stat">
+          <span class="stat__value">60+</span>
+          <span class="stat__label">Media appearances</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ PROJECT MAP ============ -->
+  <section class="map-section" id="map">
+    <div class="section-heading">
+      <h2>Field of Work</h2>
+      <p>An atlas of engagements. Hover a state for a preview, click to scroll through every project there.</p>
+    </div>
+
+    <div id="projectMap" class="project-map" role="application" aria-label="Map of US project locations by state">
+      <div class="map-tooltip" id="mapTooltip" hidden></div>
+    </div>
+
+    <div class="map-legend map-legend--heat">
+      <span>Fewer projects</span>
+      <span class="heat-scale" aria-hidden="true">
+        <i></i><i></i><i></i><i></i><i></i>
+      </span>
+      <span>More projects</span>
+    </div>
+
+    <!-- International engagements, rendered by js/map.js — they fall
+         outside the US map above. -->
+    <div class="map-international" id="mapInternational" hidden></div>
+  </section>
+
+  <!-- ============ EXPERIENCE ============ -->
+  <section class="experience" id="experience">
+    <div class="section-heading">
+      <h2>Trajectory</h2>
+    </div>
+    <ol class="timeline">
+      <li class="timeline__item">
+        <div class="timeline__meta">
+          <span class="timeline__dates">2021–Present</span>
+          <span class="timeline__place">AngelouEconomics · Austin, TX</span>
+        </div>
+        <h3>Executive Vice President</h3>
+        <ul>
+          <li>Leads business development, research operations, strategic growth, and client advisory services across domestic and international engagements.</li>
+          <li>Has overseen more than 130 engagements and $9.8M+ in project value since stepping into the role.</li>
+        </ul>
+      </li>
+      <li class="timeline__item">
+        <div class="timeline__meta">
+          <span class="timeline__dates">2019</span>
+          <span class="timeline__place">AngelouEconomics</span>
+        </div>
+        <h3>Senior Project Manager</h3>
+        <ul>
+          <li>Pivotal transition from academic research into applied economic consulting, driving large-scale economic impact, site selection, and strategic advisory work.</li>
+        </ul>
+      </li>
+      <li class="timeline__item">
+        <div class="timeline__meta">
+          <span class="timeline__dates">2014–2019</span>
+          <span class="timeline__place">University of Nebraska-Lincoln</span>
+        </div>
+        <h3>Postdoc &amp; Faculty</h3>
+        <ul>
+          <li>Led NSF-funded STEM education research through the ARISE initiative and taught interdisciplinary honors courses.</li>
+        </ul>
+      </li>
+    </ol>
+  </section>
+
+  <!-- ============ PROJECTS ============ -->
+  <section class="projects" id="projects">
+    <div class="section-heading">
+      <h2>Selected Work</h2>
+      <p>Case studies, not bullet points.</p>
+    </div>
+    <div class="project-grid" id="projectGrid">
+      <!-- Cards are rendered from data/projects.json by js/map.js -->
+    </div>
+    <div class="projects-more">
+      <button type="button" class="btn btn--outline" id="projectsToggle" hidden></button>
+    </div>
+  </section>
+
+  <!-- ============ DASHBOARDS ============ -->
+  <section class="dashboards" id="dashboards">
+    <div class="section-heading">
+      <h2>Public Voice</h2>
+    </div>
+    <div class="dashboard-grid">
+      <article class="dashboard-card">
+        <p class="dashboard-card__tool">The Wall Street Journal</p>
+        <h3>Amazon HQ2 construction pause</h3>
+        <p>Quoted in coverage explaining why a major corporate decision could have far-reaching ripple effects beyond a single company.</p>
+        <a href="https://www.wsj.com/articles/amazon-pausing-construction-of-washington-d-c-area-second-headquarters-b62ef6df?mod=Searchresults_pos1&page=1" target="_blank" rel="noopener" class="dashboard-card__link">Read coverage &rarr;</a>
+      </article>
+      <article class="dashboard-card">
+        <p class="dashboard-card__tool">KXAN</p>
+        <h3>Solar eclipse economics</h3>
+        <p>Explained how weather and attendance dynamics shape the economic impact of an event built around one moment in the sky.</p>
+        <a href="https://www.kxan.com/news/local/hill-country/was-the-total-solar-eclipse-as-good-for-the-economy-as-predicted/" target="_blank" rel="noopener" class="dashboard-card__link">Read coverage &rarr;</a>
+      </article>
+      <article class="dashboard-card">
+        <p class="dashboard-card__tool">KVUE</p>
+        <h3>Formula 1 Austin impact</h3>
+        <p>Discussed why the United States Grand Prix can generate more than $1 billion in impact and why hotel spending alone is a major signal.</p>
+        <a href="https://www.kvue.com/" target="_blank" rel="noopener" class="dashboard-card__link">Read coverage &rarr;</a>
+      </article>
+      <article class="dashboard-card">
+        <p class="dashboard-card__tool">Austin Business Journal</p>
+        <h3>Regional economic commentary</h3>
+        <p>A recurring on-record voice on how regional growth, hospitality, and local policy intersect in Central Texas and beyond.</p>
+        <a href="https://www.bizjournals.com/austin/" target="_blank" rel="noopener" class="dashboard-card__link">Read coverage &rarr;</a>
+      </article>
+    </div>
+  </section>
+
+  <!-- ============ SKILLS ============ -->
+  <section class="skills" id="skills">
+    <div class="section-heading">
+      <h2>Expertise</h2>
+    </div>
+    <div class="skills-groups">
+      <div class="skills-group">
+        <h3>Areas of practice</h3>
+        <div class="tag-list">
+          <span class="tag">Site Selection</span><span class="tag">Target Industry Analysis</span><span class="tag">Economic Impact Modeling</span>
+          <span class="tag">Economic Development Strategy</span><span class="tag">Fiscal &amp; Legislative Analysis</span><span class="tag">Incentive Negotiation</span>
+        </div>
+      </div>
+      <div class="skills-group">
+        <h3>Analytical tools</h3>
+        <div class="tag-list">
+          <span class="tag">IMPLAN</span><span class="tag">GIS</span><span class="tag">Survey Design</span>
+          <span class="tag">Scenario Modeling</span><span class="tag">Market Analysis</span><span class="tag">Forecasting</span>
+        </div>
+      </div>
+      <div class="skills-group">
+        <h3>Leadership &amp; engagement</h3>
+        <div class="tag-list">
+          <span class="tag">Business Development</span><span class="tag">Stakeholder Engagement</span><span class="tag">Media &amp; Public Engagement</span>
+          <span class="tag">Strategic Partnerships</span><span class="tag">Organizational Leadership</span><span class="tag">Policy Implementation</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ EDUCATION ============ -->
+  <section class="education" id="education">
+    <div class="section-heading">
+      <h2>Education</h2>
+    </div>
+    <div class="education-grid">
+      <article class="education-card">
+        <h3>Post-Doctorate, Institutional Change &amp; STEM Education</h3>
+        <p class="education-card__school">University of Nebraska-Lincoln</p>
+        <p class="education-card__detail">NSF-WIDER ARISE initiative, 2016</p>
+      </article>
+      <article class="education-card">
+        <h3>Doctor of Philosophy, Geography</h3>
+        <p class="education-card__school">Texas State University</p>
+        <p class="education-card__meta">Graduated: 2014</p>
+        <p class="education-card__detail">Dissertation: Examining Teachers' Attitudes and Beliefs Towards Messages for Teaching Geography in K–12 Education from Leaders in Geographic Education</p>
+      </article>
+      <article class="education-card">
+        <h3>Master of Science, Geographic Information Sciences</h3>
+        <p class="education-card__school">Central Michigan University</p>
+        <p class="education-card__meta">Graduated: 2010</p>
+        <p class="education-card__detail">Thesis: A GIS-Based Approach to Redistricting for the Michigan State Police</p>
+      </article>
+      <article class="education-card">
+        <h3>Bachelor of Arts, History &amp; Political Science</h3>
+        <p class="education-card__school">Ashland University</p>
+        <p class="education-card__meta">Graduated: 2007</p>
+        <p class="education-card__detail">Double major; capstone on historical Major League Baseball data and GIS in K–12 education</p>
+      </article>
+    </div>
+  </section>
+
+  <!-- ============ CONTACT ============ -->
+  <section class="contact" id="contact">
+    <div class="section-heading">
+      <h2>Get in touch</h2>
+      <p>Let&apos;s talk about what the numbers mean for you.</p>
+    </div>
+    <div class="contact-links">
+      <a href="mailto:matthew.patton.geog@gmail.com">Email</a>
+      <a href="https://www.linkedin.com/in/matthew-patton-98750ba2/" target="_blank" rel="noopener">LinkedIn</a>
+      <a href="mailto:matthew.patton.geog@gmail.com?subject=Media%20Inquiry">Media Inquiries</a>
+    </div>
+  </section>
+
+</main>
+
+<footer class="site-footer">
+  <p>&copy; <span id="year"></span> Matthew Patton, Ph.D. Built with plain HTML, CSS, and JS.</p>
+</footer>
+
+<script src="js/map.js"></script>
+<script src="js/main.js"></script>
+</body>
+</html>

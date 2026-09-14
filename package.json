@@ -1,0 +1,16 @@
+{
+  "name": "matthew-patton-portfolio",
+  "version": "1.0.0",
+  "description": "Matthew Patton portfolio site with an interactive project map",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node server.js"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "dependencies": {
+    "express": "^4.19.2"
+  }
+}

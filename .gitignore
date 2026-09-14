@@ -1,0 +1,28 @@
+node_modules/
+.env
+.DS_Store
+npm-debug.log*
+
+# ---------------------------------------------------------------
+# Private source material — kept locally, never published.
+# The workbook contains salary figures, per-client project pricing,
+# and personal career notes. data/projects.json is generated from it
+# and carries only what the site actually shows.
+# ---------------------------------------------------------------
+data/*.xlsx
+
+# Superseded / unused source documents. Kept on disk for reference,
+# but the deployed site does not reference any of them.
+Patton_Master_CV-Repository.pdf
+Patton_Master_CV-Repository_text.txt
+patton_site_wireframe.pdf
+patton_site_wireframe_text.txt
+
+# Leftover from an earlier Google My Maps approach that was dropped.
+data/projects_mymaps.csv
+
+# Unused high-resolution originals (~5 MB). Only Matt Photo-screen.jpg
+# is referenced by index.html and ships with the site.
+Image/Matt Photo-clear.jpg
+Image/Matt Photo-optimized.jpg
+Image/Matt Photo.jpeg

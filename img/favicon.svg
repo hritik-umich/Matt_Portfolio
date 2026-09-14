@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" role="img" aria-label="Matthew Patton">
+  <title>Matthew Patton</title>
+  <!-- Brand colors match css/style.css: --color-bg and --color-accent.
+       Drawn as a path rather than <text> so the mark renders identically
+       everywhere, with no dependency on a system font. -->
+  <rect width="64" height="64" rx="13" fill="#0B1220"/>
+  <path d="M14 46 V18 L32 34 L50 18 V46 H42 V33 L32 42 L22 33 V46 Z" fill="#34C3A6"/>
+</svg>

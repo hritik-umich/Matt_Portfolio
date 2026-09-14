@@ -1,0 +1,3603 @@
+{
+  "_readme": "Generated from data/AE Project Management.xlsx — do not hand-edit. projects[] = 'Map Data' sheet (client engagements, curated hover copy) and drives the Selected Work cards + international list. mapProjects[] = 'Raw Data' sheet, every project row grouped by client + project detail (count = how many times that project ran), and drives the state heat map. stats{} = 'Project Statistics' sheet.",
+  "stats": {
+    "totalProjects": 159,
+    "totalValue": 9860725,
+    "totalValueLabel": "$9.8M+",
+    "statesWorked": 24,
+    "impactStudies": 109,
+    "statesShaded": 24,
+    "mapProjectInstancesUS": 159
+  },
+  "projects": [
+    {
+      "id": "c3-presents",
+      "title": "C3 Presents",
+      "client": "C3 Presents",
+      "location": {
+        "city": "Austin",
+        "region": "Texas",
+        "country": "United States",
+        "regionCode": "TX",
+        "lat": 30.2672,
+        "lng": -97.7431
+      },
+      "years": "2019–present",
+      "summary": "Annual economic impact studies for major U.S. music festivals including ACL, Lollapalooza, Sueños, Bonnaroo, Dreamville, and others, plus site selection support.",
+      "tags": [
+        "Scenario Modeling",
+        "Survey Instrument Design",
+        "Public Finance & Tax Analysis",
+        "Forecasting",
+        "Media Engagement"
+      ],
+      "category": "Economic Impact Study"
+    },
+    {
+      "id": "circuit-of-the-americas",
+      "title": "Circuit of the Americas",
+      "client": "Circuit of the Americas",
+      "location": {
+        "city": "Austin",
+        "region": "Texas",
+        "country": "United States",
+        "regionCode": "TX",
+        "lat": 30.2672,
+        "lng": -97.7431
+      },
+      "years": "2019–present",
+      "summary": "Annual economic impact studies for F1 United States Grand Prix, MotoGP, NASCAR, MotoAmerica, and WEC, supporting state event reimbursement applications.",
+      "tags": [
+        "Scenario Modeling",
+        "Survey Instrument Design",
+        "Public Finance & Tax Analysis",
+        "Incentive Modeling & Forecasting",
+        "Media Engagement"
+      ],
+      "category": "Economic Impact Study"
+    },
+    {
+      "id": "texas-motorplex-nhra",
+      "title": "Texas Motorplex (NHRA)",
+      "client": "Texas Motorplex (NHRA)",
+      "location": {
+        "city": "Ennis",
+        "region": "Texas",
+        "country": "United States",
+        "regionCode": "TX",
+        "lat": 32.3293,
+        "lng": -96.625
+      },
+      "years": "2022–present",
+      "summary": "Annual economic impact study for the NHRA Texas Fall Nationals drag racing event, supporting state reimbursement program applications.",
+      "tags": [
+        "Forecasting",
+        "Scenario Modeling",
+        "Survey Instrument Design",
+        "Public Finance & Tax Analysis",
+        "Incentive Modeling & Forecasting"
+      ],
+      "category": "Economic Impact Study"
+    },
+    {
+      "id": "belly-up-aspen",
+      "title": "Belly Up Aspen",
+      "client": "Belly Up Aspen",
+      "location": {
+        "city": "Aspen",
+        "region": "Colorado",
+        "country": "United States",
+        "regionCode": "CO",
+        "lat": 39.1911,
+        "lng": -106.8175
+      },
+      "years": "2024–present",
+      "summary": "Annual economic impact studies for the Palm Tree Festival and Up in the Sky Festival.",
+      "tags": [
+        "Forecasting",
+        "Scenario Modeling",
+        "Survey Instrument Design",
+        "Media Engagement",
+        "Public Finance & Tax Analysis"
+      ],
+      "category": "Economic Impact Study"
+    },
+    {
+      "id": "ac-entertainment-big-ears",
+      "title": "AC Entertainment (Big Ears)",
+      "client": "AC Entertainment (Big Ears)",
+      "location": {
+        "city": "Knoxville",
+        "region": "Tennessee",
+        "country": "United States",
+        "regionCode": "TN",
+        "lat": 35.9606,
+        "lng": -83.9207
+      },
+      "years": "2022–present",
+      "summary": "Recurring economic impact study for the Big Ears music festival.",
+      "tags": [
+        "Forecasting",
+        "Scenario Modeling",
+        "Survey Instrument Design",
+        "Media Engagement",
+        "Public Finance & Tax Analysis"
+      ],
+      "category": "Economic Impact Study"
+    },
+    {
+      "id": "city-of-kemmerer-wy",
+      "title": "City of Kemmerer, WY",
+      "client": "City of Kemmerer, WY",
+      "location": {
+        "city": "Kemmerer",
+        "region": "Wyoming",
+        "country": "United States",
+        "regionCode": "WY",
+        "lat": 41.7911,
+        "lng": -110.5387
+      },
+      "years": "2020–2022",
+      "summary": "Multi-year economic diversification strategy for a coal-dependent community in transition, including target industry analysis and site readiness work; contributed to a nuclear energy developer selecting the community for a new project.",
+      "tags": [
+        "Benchmarking & Competitive Analysis",
+        "Define Vision/Strategy",
+        "Feasibility Analysis",
+        "Go-to-Market Strategy",
+        "Legislative & Policy Analysis"
+      ],
+      "category": "Economic Diversification"
+    },
+    {
+      "id": "mass-general-brigham",
+      "title": "Mass General Brigham",
+      "client": "Mass General Brigham",
+      "location": {
+        "city": "Boston",
+        "region": "Massachusetts",
+        "country": "United States",
+        "regionCode": "MA",
+        "lat": 42.3601,
+        "lng": -71.0589
+      },
+      "years": "2021–2022",
+      "summary": "Statewide economic impact study of one of Massachusetts's largest health systems, used for internal and state legislative purposes.",
+      "tags": [
+        "Scenario Modeling",
+        "Cost-Benefit Analysis",
+        "Database Management",
+        "Forecasting",
+        "Joint Ventures"
+      ],
+      "category": "Economic Impact Study"
+    },
+    {
+      "id": "prospera",
+      "title": "Prospera",
+      "client": "Prospera",
+      "location": {
+        "city": "Orlando",
+        "region": "Florida",
+        "country": "United States",
+        "regionCode": "FL",
+        "lat": 28.5383,
+        "lng": -81.3792
+      },
+      "years": "2021–2022",
+      "summary": "30-year economic impact study of a nonprofit supporting Hispanic entrepreneurs across Florida and North Carolina, later updated.",
+      "tags": [
+        "Forecasting",
+        "Scenario Modeling",
+        "Survey Instrument Design",
+        "Public Finance & Tax Analysis"
+      ],
+      "category": "Economic Impact Study"
+    },
+    {
+      "id": "galati-county-romania",
+      "title": "Galați County, Romania",
+      "client": "Galați County, Romania",
+      "location": {
+        "city": "Galați",
+        "region": "Galați",
+        "country": "Romania",
+        "lat": 45.4353,
+        "lng": 28.008
+      },
+      "years": "2023–present",
+      "summary": "Comprehensive economic development strategy, market assessment, and target industry analysis, supporting an ongoing international delegation and investment relationship with Central Texas.",
+      "tags": [
+        "Benchmarking & Competitive Analysis",
+        "Database Management",
+        "Define Vision/Strategy",
+        "Due Diligence",
+        "Economic Development Incentives"
+      ],
+      "category": "Economic Development"
+    },
+    {
+      "id": "greater-austin-asian-chamber-of-commerce",
+      "title": "Greater Austin Asian Chamber of Commerce",
+      "client": "Greater Austin Asian Chamber of Commerce",
+      "location": {
+        "city": "Austin",
+        "region": "Texas",
+        "country": "United States",
+        "regionCode": "TX",
+        "lat": 30.2672,
+        "lng": -97.7431
+      },
+      "years": "2023–present",
+      "summary": "Annual pro bono economic impact study for the chamber's member network.",
+      "tags": [
+        "Scenario Modeling",
+        "Public Finance & Tax Analysis",
+        "Market Analysis",
+        "Survey Instrument Design",
+        "Qualitative Data Analysis"
+      ],
+      "category": "Economic Impact Study"
+    },
+    {
+      "id": "rida-development",
+      "title": "RIDA Development",
+      "client": "RIDA Development",
+      "location": {
+        "city": "Austin",
+        "region": "Texas",
+        "country": "United States",
+        "regionCode": "TX",
+        "lat": 30.2672,
+        "lng": -97.7431
+      },
+      "years": "2023, 2025",
+      "summary": "Scenario modeling for a real estate development project in eastern Travis County.",
+      "tags": [
+        "Cost-Benefit Analysis",
+        "Market Analysis",
+        "Public Finance & Tax Analysis"
+      ],
+      "category": "Economic Impact Study"
+    },
+    {
+      "id": "tango-lima-presidio",
+      "title": "Tango Lima (Presidio)",
+      "client": "Tango Lima (Presidio)",
+      "location": {
+        "city": null,
+        "region": "Texas",
+        "country": "United States",
+        "regionCode": "TX",
+        "lat": 29.5608,
+        "lng": -104.3736
+      },
+      "years": "2023–2024",
+      "summary": "Economic impact study of a proposed international border bridge crossing.",
+      "tags": [
+        "Scenario Modeling",
+        "Public Finance & Tax Analysis",
+        "Legislative & Policy Analysis"
+      ],
+      "category": "Economic Impact Study"
+    },
+    {
+      "id": "vanelli",
+      "title": "Vanelli",
+      "client": "Vanelli",
+      "location": {
+        "city": "Lețcani",
+        "region": "Iași",
+        "country": "Romania",
+        "lat": 47.15,
+        "lng": 27.3167
+      },
+      "years": "2023–2024",
+      "summary": "US market entry and growth strategy for a Romanian health and animal-supplement company.",
+      "tags": [
+        "Go-to-Market Strategy",
+        "Market Analysis",
+        "Market Intelligence",
+        "Merger & Acquisition",
+        "Strategic Recommendations"
+      ],
+      "category": "US Market Entry"
+    },
+    {
+      "id": "igt-texas-lottery-tab",
+      "title": "IGT (Texas Lottery) / TAB",
+      "client": "IGT (Texas Lottery) / TAB",
+      "location": {
+        "city": "Austin",
+        "region": "Texas",
+        "country": "United States",
+        "regionCode": "TX",
+        "lat": 30.2672,
+        "lng": -97.7431
+      },
+      "years": "2024–2025",
+      "summary": "Legislative and economic impact review evaluating the financial implications of discontinuing the Texas Lottery.",
+      "tags": [],
+      "category": "Advisory"
+    },
+    {
+      "id": "kansas-city-mo",
+      "title": "Kansas City, MO",
+      "client": "Kansas City, MO",
+      "location": {
+        "city": "Kansas City",
+        "region": "Missouri",
+        "country": "United States",
+        "regionCode": "MO",
+        "lat": 39.0997,
+        "lng": -94.5786
+      },
+      "years": "2024–2025",
+      "summary": "Citywide equitable economic development strategy, including target industry analysis and policy recommendations.",
+      "tags": [
+        "Benchmarking & Competitive Analysis",
+        "Define Vision/Strategy",
+        "Due Diligence",
+        "Economic Development Incentives",
+        "Feasibility Analysis"
+      ],
+      "category": "Economic Development"
+    },
+    {
+      "id": "latitude-38-entertainment-bottlerock",
+      "title": "Latitude 38 Entertainment (BottleRock)",
+      "client": "Latitude 38 Entertainment (BottleRock)",
+      "location": {
+        "city": "Napa",
+        "region": "California",
+        "country": "United States",
+        "regionCode": "CA",
+        "lat": 38.2975,
+        "lng": -122.2869
+      },
+      "years": "2024, 2026",
+      "summary": "Recurring economic impact study for the BottleRock Napa Valley music festival.",
+      "tags": [
+        "Scenario Modeling",
+        "Survey Instrument Design",
+        "Public Finance & Tax Analysis",
+        "Forecasting"
+      ],
+      "category": "Economic Impact Study"
+    },
+    {
+      "id": "terrell-edc",
+      "title": "Terrell EDC",
+      "client": "Terrell EDC",
+      "location": {
+        "city": "Terrell",
+        "region": "Texas",
+        "country": "United States",
+        "regionCode": "TX",
+        "lat": 32.7357,
+        "lng": -96.2753
+      },
+      "years": "2024–2025",
+      "summary": "Target industry analysis supporting economic development recruitment.",
+      "tags": [
+        "Market Analysis",
+        "Market Intelligence",
+        "Strategic Recommendations"
+      ],
+      "category": "Economic Development"
+    },
+    {
+      "id": "texas-juvenile-justice-dept",
+      "title": "Texas Juvenile Justice Dept",
+      "client": "Texas Juvenile Justice Dept",
+      "location": {
+        "city": "Austin",
+        "region": "Texas",
+        "country": "United States",
+        "regionCode": "TX",
+        "lat": 30.2672,
+        "lng": -97.7431
+      },
+      "years": "2024–2025",
+      "summary": "Legislative compensation and workforce retention study for state juvenile justice staff.",
+      "tags": [
+        "Forecasting",
+        "Scenario Modeling",
+        "Public Finance & Tax Analysis",
+        "Legislative & Policy Analysis"
+      ],
+      "category": "Economic Impact Study"
+    },
+    {
+      "id": "tab-exxon-ccus",
+      "title": "TAB / Exxon (CCUS)",
+      "client": "TAB / Exxon (CCUS)",
+      "location": {
+        "city": "Houston",
+        "region": "Texas",
+        "country": "United States",
+        "regionCode": "TX",
+        "lat": 29.7604,
+        "lng": -95.3698
+      },
+      "years": "2024, 2026",
+      "summary": "Statewide economic impact analysis of carbon capture, utilization, and storage (CCUS) projects.",
+      "tags": [
+        "Cost-Benefit Analysis",
+        "Benchmarking & Competitive Analysis",
+        "Forecasting",
+        "Legislative & Policy Analysis",
+        "Market Analysis"
+      ],
+      "category": "Economic Impact Study"
+    },
+    {
+      "id": "buda-edc",
+      "title": "Buda EDC",
+      "client": "Buda EDC",
+      "location": {
+        "city": "Buda",
+        "region": "Texas",
+        "country": "United States",
+        "regionCode": "TX",
+        "lat": 30.0852,
+        "lng": -97.8403
+      },
+      "years": "2022, 2024",
+      "summary": "Target industry analysis followed by a five-year economic development implementation strategy.",
+      "tags": [
+        "Benchmarking & Competitive Analysis",
+        "Stakeholder Engagement",
+        "New Growth Initiative/Strategy",
+        "Market Analysis",
+        "Joint Ventures"
+      ],
+      "category": "Target Industry Analysis"
+    },
+    {
+      "id": "amd",
+      "title": "AMD",
+      "client": "AMD",
+      "location": {
+        "city": "Austin",
+        "region": "Texas",
+        "country": "United States",
+        "regionCode": "TX",
+        "lat": 30.2672,
+        "lng": -97.7431
+      },
+      "years": "2019",
+      "summary": "National economic impact study used to support legislative testimony to the U.S. Congress.",
+      "tags": [
+        "Forecasting",
+        "Scenario Modeling",
+        "Legislative & Policy Analysis",
+        "Market Analysis",
+        "Public Finance & Tax Analysis"
+      ],
+      "category": "Economic Impact Study"
+    },
+    {
+      "id": "respec",
+      "title": "RESPEC",
+      "client": "RESPEC",
+      "location": {
+        "city": "Rapid City",
+        "region": "South Dakota",
+        "country": "United States",
+        "regionCode": "SD",
+        "lat": 44.0805,
+        "lng": -103.231
+      },
+      "years": "2019",
+      "summary": "Merger & acquisition due diligence identifying potential acquisition targets in the Colorado market.",
+      "tags": [
+        "Benchmarking & Competitive Analysis",
+        "Due Diligence",
+        "Market Analysis",
+        "Market Intelligence",
+        "Merger & Acquisition"
+      ],
+      "category": "Company Acquisition"
+    },
+    {
+      "id": "niantic-redpeg-pokemon-go-chicago",
+      "title": "Niantic/RedPeg (Pokémon GO – Chicago)",
+      "client": "Niantic/RedPeg (Pokémon GO – Chicago)",
+      "location": {
+        "city": "Chicago",
+        "region": "Illinois",
+        "country": "United States",
+        "regionCode": "IL",
+        "lat": 41.8781,
+        "lng": -87.6298
+      },
+      "years": "2019",
+      "summary": "Economic impact study of the multiday Pokémon GO Festival augmented-reality gaming event.",
+      "tags": [
+        "Forecasting",
+        "Scenario Modeling",
+        "Survey Instrument Design",
+        "Public Finance & Tax Analysis",
+        "Qualitative Data Analysis"
+      ],
+      "category": "Economic Impact Study"
+    },
+    {
+      "id": "niantic-redpeg-pokemon-go-montreal",
+      "title": "Niantic/RedPeg (Pokémon GO – Montréal)",
+      "client": "Niantic/RedPeg (Pokémon GO – Montréal)",
+      "location": {
+        "city": "Montréal",
+        "region": "QC",
+        "country": "Canada",
+        "lat": 45.5019,
+        "lng": -73.5674
+      },
+      "years": "2019",
+      "summary": "Economic impact study of Canada's first Pokémon GO Safari Zone festival.",
+      "tags": [
+        "Forecasting",
+        "Scenario Modeling",
+        "Survey Instrument Design",
+        "Public Finance & Tax Analysis",
+        "Qualitative Data Analysis"
+      ],
+      "category": "Economic Impact Study"
+    },
+    {
+      "id": "oncor-electric-delivery-company",
+      "title": "Oncor Electric Delivery Company",
+      "client": "Oncor Electric Delivery Company",
+      "location": {
+        "city": "Dallas",
+        "region": "Texas",
+        "country": "United States",
+        "regionCode": "TX",
+        "lat": 32.7767,
+        "lng": -96.797
+      },
+      "years": "2021",
+      "summary": "Scenario modeling of household savings and regional economic activity from an expanded utility service territory.",
+      "tags": [
+        "Scenario Modeling",
+        "Cost-Benefit Analysis",
+        "Database Management",
+        "Forecasting",
+        "Joint Ventures"
+      ],
+      "category": "Economic Impact Study"
+    },
+    {
+      "id": "secure-democracy",
+      "title": "Secure Democracy",
+      "client": "Secure Democracy",
+      "location": {
+        "city": "Austin",
+        "region": "Texas",
+        "country": "United States",
+        "regionCode": "TX",
+        "lat": 30.2672,
+        "lng": -97.7431
+      },
+      "years": "2021",
+      "summary": "Fiscal impact analysis of proposed Texas election-audit legislation.",
+      "tags": [
+        "Forecasting",
+        "Legislative & Policy Analysis",
+        "Policy Implementation",
+        "Public Finance & Tax Analysis",
+        "Scenario Modeling"
+      ],
+      "category": "Fiscal Impact Analysis"
+    },
+    {
+      "id": "the-trail-foundation",
+      "title": "The Trail Foundation",
+      "client": "The Trail Foundation",
+      "location": {
+        "city": "Austin",
+        "region": "Texas",
+        "country": "United States",
+        "regionCode": "TX",
+        "lat": 30.2672,
+        "lng": -97.7431
+      },
+      "years": "2021",
+      "summary": "Localized economic impact study.",
+      "tags": [
+        "Forecasting",
+        "Strategic Partnerships",
+        "Public Finance & Tax Analysis"
+      ],
+      "category": "Economic Impact Study"
+    },
+    {
+      "id": "tomo-networks",
+      "title": "Tomo Networks",
+      "client": "Tomo Networks",
+      "location": {
+        "city": "Austin",
+        "region": "Texas",
+        "country": "United States",
+        "regionCode": "TX",
+        "lat": 30.2672,
+        "lng": -97.7431
+      },
+      "years": "2021",
+      "summary": "Site selection support for establishing a regional headquarters in Austin.",
+      "tags": [
+        "Forecasting",
+        "Scenario Modeling",
+        "Site Selection",
+        "Public Finance & Tax Analysis",
+        "Incentive Modeling & Forecasting"
+      ],
+      "category": "Site Selection"
+    },
+    {
+      "id": "violet-crown-amphitheater",
+      "title": "Violet Crown Amphitheater",
+      "client": "Violet Crown Amphitheater",
+      "location": {
+        "city": "Austin",
+        "region": "Texas",
+        "country": "United States",
+        "regionCode": "TX",
+        "lat": 30.2672,
+        "lng": -97.7431
+      },
+      "years": "2021",
+      "summary": "20-year feasibility and economic impact study for a proposed music venue and mixed-use development.",
+      "tags": [
+        "Forecasting",
+        "Scenario Modeling",
+        "Public Finance & Tax Analysis",
+        "Media Engagement"
+      ],
+      "category": "Feasibility Analysis"
+    },
+    {
+      "id": "lancium",
+      "title": "Lancium",
+      "client": "Lancium",
+      "location": {
+        "city": "Abilene / Fort Stockton",
+        "region": "Texas",
+        "country": "United States",
+        "regionCode": "TX",
+        "lat": 32.4487,
+        "lng": -99.7331
+      },
+      "years": "2021",
+      "summary": "Site selection for a renewable-energy-powered data center network in West Texas.",
+      "tags": [
+        "Benchmarking & Competitive Analysis",
+        "Due Diligence",
+        "Economic Development Incentivies",
+        "Incentive Compliance & Monitoring",
+        "Incentive Modeling & Forecasting"
+      ],
+      "category": "Site Selection"
+    },
+    {
+      "id": "city-of-butte-mt",
+      "title": "City of Butte, MT",
+      "client": "City of Butte, MT",
+      "location": {
+        "city": "Butte",
+        "region": "Montana",
+        "country": "United States",
+        "regionCode": "MT",
+        "lat": 46.0038,
+        "lng": -112.5348
+      },
+      "years": "2022",
+      "summary": "Retail leakage analysis for the city and county.",
+      "tags": [
+        "Forecasting",
+        "Scenario Modeling",
+        "Public Finance & Tax Analysis"
+      ],
+      "category": "Retail Leakage Analysis"
+    },
+    {
+      "id": "city-of-cedar-rapids-ia",
+      "title": "City of Cedar Rapids, IA",
+      "client": "City of Cedar Rapids, IA",
+      "location": {
+        "city": "Cedar Rapids",
+        "region": "Iowa",
+        "country": "United States",
+        "regionCode": "IA",
+        "lat": 41.9779,
+        "lng": -91.6656
+      },
+      "years": "2022",
+      "summary": "Target industry analysis identifying priority growth sectors to guide citywide workforce development.",
+      "tags": [
+        "Market Analysis",
+        "Target Industry Analysis",
+        "Stakeholder Engagement",
+        "Strategic Business Opportunities",
+        "Process Optimization"
+      ],
+      "category": "Workforce Development"
+    },
+    {
+      "id": "mississippi-county-ar",
+      "title": "Mississippi County, AR",
+      "client": "Mississippi County, AR",
+      "location": {
+        "city": "Blytheville",
+        "region": "Arkansas",
+        "country": "United States",
+        "regionCode": "AR",
+        "lat": 35.9273,
+        "lng": -89.9187
+      },
+      "years": "2022",
+      "summary": "Workforce demographic analysis for a regional economic development foundation.",
+      "tags": [
+        "Market Analysis",
+        "Forecasting",
+        "Scenario Modeling",
+        "Public Finance & Tax Analysis"
+      ],
+      "category": "Workforce Development"
+    },
+    {
+      "id": "national-entrepreneur-center",
+      "title": "National Entrepreneur Center",
+      "client": "National Entrepreneur Center",
+      "location": {
+        "city": "Orlando",
+        "region": "Florida",
+        "country": "United States",
+        "regionCode": "FL",
+        "lat": 28.5383,
+        "lng": -81.3792
+      },
+      "years": "2022",
+      "summary": "Multi-year economic impact and ROI analysis of an entrepreneurship support center.",
+      "tags": [
+        "Scenario Modeling",
+        "Forecasting",
+        "Public Finance & Tax Analysis",
+        "Media Engagement",
+        "ROI Analysis"
+      ],
+      "category": "Economic Impact Study"
+    },
+    {
+      "id": "sh-130-connector",
+      "title": "SH 130 Connector",
+      "client": "SH 130 Connector",
+      "location": {
+        "city": "Buda",
+        "region": "Texas",
+        "country": "United States",
+        "regionCode": "TX",
+        "lat": 30.0852,
+        "lng": -97.8403
+      },
+      "years": "2022",
+      "summary": "Economic impact study of a proposed regional tollway connector.",
+      "tags": [
+        "Scenario Modeling",
+        "Forecasting",
+        "Public Finance & Tax Analysis",
+        "Market Analysis"
+      ],
+      "category": "Economic Impact Study"
+    },
+    {
+      "id": "beaumont-tx-chamber-of-commerce",
+      "title": "Beaumont, TX (Chamber of Commerce)",
+      "client": "Beaumont, TX (Chamber of Commerce)",
+      "location": {
+        "city": "Beaumont",
+        "region": "Texas",
+        "country": "United States",
+        "regionCode": "TX",
+        "lat": 30.0802,
+        "lng": -94.1266
+      },
+      "years": "2023–2024",
+      "summary": "Citywide economic development strategy identifying priority industries and growth initiatives.",
+      "tags": [
+        "Benchmarking & Competitive Analysis",
+        "Define Vision/Strategy",
+        "Due Diligence",
+        "Economic Development Incentives",
+        "Feasibility Analysis"
+      ],
+      "category": "Economic Development"
+    },
+    {
+      "id": "garrison-brothers",
+      "title": "Garrison Brothers",
+      "client": "Garrison Brothers",
+      "location": {
+        "city": "Hye",
+        "region": "Texas",
+        "country": "United States",
+        "regionCode": "TX",
+        "lat": 30.2408,
+        "lng": -98.5945
+      },
+      "years": "2023",
+      "summary": "Economic impact study of a proposed regional hike-and-bike trail.",
+      "tags": [
+        "Feasibility Analysis",
+        "Forecasting",
+        "Scenario Modeling",
+        "Public Finance & Tax Analysis"
+      ],
+      "category": "Economic Impact Study"
+    },
+    {
+      "id": "m-aerospace-rtc",
+      "title": "M Aerospace RTC",
+      "client": "M Aerospace RTC",
+      "location": {
+        "city": "Mexicali",
+        "region": "Baja California",
+        "country": "Mexico",
+        "lat": 32.6245,
+        "lng": -115.4523
+      },
+      "years": "2023",
+      "summary": "Site selection support for a U.S. manufacturing facility to fulfill a Navy contract requirement.",
+      "tags": [
+        "Forecasting",
+        "Scenario Modeling",
+        "Site Selection",
+        "Incentive Modeling & Forecasting",
+        "Public Finance & Tax Analysis"
+      ],
+      "category": "Site Selection"
+    },
+    {
+      "id": "nucor-yamato-steel",
+      "title": "Nucor-Yamato Steel",
+      "client": "Nucor-Yamato Steel",
+      "location": {
+        "city": "Blytheville",
+        "region": "Arkansas",
+        "country": "United States",
+        "regionCode": "AR",
+        "lat": 35.9273,
+        "lng": -89.9187
+      },
+      "years": "2023",
+      "summary": "Multi-year economic impact study of a major steel mill's Arkansas operations.",
+      "tags": [
+        "Forecasting",
+        "Scenario Modeling",
+        "Public Finance & Tax Analysis",
+        "Legislative & Policy Analysis"
+      ],
+      "category": "Economic Impact Study"
+    },
+    {
+      "id": "southwest-medical-corridor",
+      "title": "Southwest Medical Corridor",
+      "client": "Southwest Medical Corridor",
+      "location": {
+        "city": "Dallas",
+        "region": "Texas",
+        "country": "United States",
+        "regionCode": "TX",
+        "lat": 32.7767,
+        "lng": -96.797
+      },
+      "years": "2023",
+      "summary": "Scenario modeling for a medical district redevelopment.",
+      "tags": [
+        "Cost-Benefit Analysis",
+        "Database Management",
+        "Forecasting",
+        "Joint Ventures",
+        "Legislative & Policy Analysis"
+      ],
+      "category": "Economic Impact Study"
+    },
+    {
+      "id": "texans-for-clean-water",
+      "title": "Texans for Clean Water",
+      "client": "Texans for Clean Water",
+      "location": {
+        "city": "Austin",
+        "region": "Texas",
+        "country": "United States",
+        "regionCode": "TX",
+        "lat": 30.2672,
+        "lng": -97.7431
+      },
+      "years": "2023",
+      "summary": "Legislative fiscal impact analysis of statewide recycling incentive policy scenarios.",
+      "tags": [
+        "Forecasting",
+        "Legislative & Policy Analysis",
+        "Policy Implementation",
+        "Public Finance & Tax Analysis",
+        "Scenario Modeling"
+      ],
+      "category": "Fiscal Impact Analysis"
+    },
+    {
+      "id": "blast-tv",
+      "title": "Blast.tv",
+      "client": "Blast.tv",
+      "location": {
+        "city": "Austin",
+        "region": "Texas",
+        "country": "United States",
+        "regionCode": "TX",
+        "lat": 30.2672,
+        "lng": -97.7431
+      },
+      "years": "2024",
+      "summary": "Economic impact study for a major esports (Counter-Strike) tournament, supporting a state reimbursement program application.",
+      "tags": [
+        "Forecasting",
+        "Scenario Modeling",
+        "Survey Instrument Design",
+        "Public Finance & Tax Analysis"
+      ],
+      "category": "Economic Impact Study"
+    },
+    {
+      "id": "cesium-astro",
+      "title": "Cesium Astro",
+      "client": "Cesium Astro",
+      "location": {
+        "city": "Bee Cave",
+        "region": "Texas",
+        "country": "United States",
+        "regionCode": "TX",
+        "lat": 30.3085,
+        "lng": -97.9425
+      },
+      "years": "2024",
+      "summary": "Economic impact study of an aerospace and satellite-communications company's headquarters and manufacturing expansion.",
+      "tags": [
+        "Forecasting",
+        "Scenario Modeling",
+        "Public Finance & Tax Analysis",
+        "Strategic Recommendations"
+      ],
+      "category": "Economic Impact Study"
+    },
+    {
+      "id": "great-springs-project",
+      "title": "Great Springs Project",
+      "client": "Great Springs Project",
+      "location": {
+        "city": "San Antonio",
+        "region": "Texas",
+        "country": "United States",
+        "regionCode": "TX",
+        "lat": 29.4241,
+        "lng": -98.4936
+      },
+      "years": "2024",
+      "summary": "Multi-county economic, conservation, and health impact study for a proposed regional trail network.",
+      "tags": [
+        "Forecasting",
+        "Scenario Modeling",
+        "Public Finance & Tax Analysis"
+      ],
+      "category": "Economic Impact Study"
+    },
+    {
+      "id": "knoxville-asian-festival",
+      "title": "Knoxville Asian Festival",
+      "client": "Knoxville Asian Festival",
+      "location": {
+        "city": "Knoxville",
+        "region": "Tennessee",
+        "country": "United States",
+        "regionCode": "TN",
+        "lat": 35.9606,
+        "lng": -83.9207
+      },
+      "years": "2024",
+      "summary": "Economic impact study of a regional cultural festival.",
+      "tags": [
+        "Forecasting",
+        "Scenario Modeling",
+        "Survey Instrument Design",
+        "Public Finance & Tax Analysis"
+      ],
+      "category": "Economic Impact Study"
+    },
+    {
+      "id": "niaaa-nfhs",
+      "title": "NIAAA/NFHS",
+      "client": "NIAAA/NFHS",
+      "location": {
+        "city": "Austin",
+        "region": "Texas",
+        "country": "United States",
+        "regionCode": "TX",
+        "lat": 30.2672,
+        "lng": -97.7431
+      },
+      "years": "2024",
+      "summary": "Economic impact study of a national athletic directors' conference, supporting a state reimbursement program application.",
+      "tags": [
+        "Forecasting",
+        "Scenario Modeling",
+        "Survey Instrument Design",
+        "Public Finance & Tax Analysis",
+        "Incentive Modeling & Forecasting"
+      ],
+      "category": "Economic Impact Study"
+    },
+    {
+      "id": "paramount-cma",
+      "title": "Paramount/CMA",
+      "client": "Paramount/CMA",
+      "location": {
+        "city": "Austin",
+        "region": "Texas",
+        "country": "United States",
+        "regionCode": "TX",
+        "lat": 30.2672,
+        "lng": -97.7431
+      },
+      "years": "2024",
+      "summary": "Economic impact study of the CMT Country Music Awards, supporting a state reimbursement program application.",
+      "tags": [
+        "Forecasting",
+        "Scenario Modeling",
+        "Survey Instrument Design",
+        "Public Finance & Tax Analysis",
+        "Incentive Modeling & Forecasting"
+      ],
+      "category": "Economic Impact Study"
+    },
+    {
+      "id": "tampere-finland",
+      "title": "Tampere, Finland",
+      "client": "Tampere, Finland",
+      "location": {
+        "city": "Tampere",
+        "region": "Pirkanmaa",
+        "country": "Finland",
+        "lat": 61.4978,
+        "lng": 23.761
+      },
+      "years": "2024",
+      "summary": "Foreign direct investment promotion tour representing Finland's Tampere Region to Texas government and industry leaders, leading to a new Finnish consulate in Austin.",
+      "tags": [
+        "Benchmarking & Competitive Analysis",
+        "Database Management",
+        "Define Vision/Strategy",
+        "Due Diligence",
+        "Economic Development Incentives"
+      ],
+      "category": "Economic Development"
+    },
+    {
+      "id": "united-center-chicago",
+      "title": "United Center (Chicago)",
+      "client": "United Center (Chicago)",
+      "location": {
+        "city": "Chicago",
+        "region": "Illinois",
+        "country": "United States",
+        "regionCode": "IL",
+        "lat": 41.8781,
+        "lng": -87.6298
+      },
+      "years": "2025",
+      "summary": "Economic impact study of a major sports and entertainment arena.",
+      "tags": [
+        "Scenario Modeling",
+        "Public Finance & Tax Analysis",
+        "Market Analysis",
+        "Strategic Recommendations",
+        "Legislative & Policy Analysis"
+      ],
+      "category": "Economic Impact Study"
+    },
+    {
+      "id": "white-rocks-amphitheatre",
+      "title": "White Rocks Amphitheatre",
+      "client": "White Rocks Amphitheatre",
+      "location": {
+        "city": "Austin",
+        "region": "Texas",
+        "country": "United States",
+        "regionCode": "TX",
+        "lat": 30.2672,
+        "lng": -97.7431
+      },
+      "years": "2025",
+      "summary": "Feasibility and financial modeling study for a proposed music venue.",
+      "tags": [
+        "Scenario Modeling",
+        "Public Finance & Tax Analysis"
+      ],
+      "category": "Feasibility Analysis"
+    },
+    {
+      "id": "major-league-soccer-mls-all-star",
+      "title": "Major League Soccer (MLS All-Star)",
+      "client": "Major League Soccer (MLS All-Star)",
+      "location": {
+        "city": "Austin",
+        "region": "Texas",
+        "country": "United States",
+        "regionCode": "TX",
+        "lat": 30.2672,
+        "lng": -97.7431
+      },
+      "years": "2025",
+      "summary": "Economic impact study of the MLS All-Star event.",
+      "tags": [
+        "Machine Learning",
+        "Scenario Modeling",
+        "Survey Instrument Design",
+        "Public Finance & Tax Analysis",
+        "Incentive Modeling & Forecasting"
+      ],
+      "category": "Economic Impact Study"
+    },
+    {
+      "id": "project-austin",
+      "title": "Project Austin",
+      "client": "Project Austin",
+      "location": {
+        "city": "Austin",
+        "region": "Texas",
+        "country": "United States",
+        "regionCode": "TX",
+        "lat": 30.2672,
+        "lng": -97.7431
+      },
+      "years": "2025",
+      "summary": "10-year citywide economic forecast.",
+      "tags": [
+        "Forecasting",
+        "Scenario Modeling",
+        "Personnel Evaluation",
+        "Program Evaluation",
+        "Public Finance & Tax Analysis"
+      ],
+      "category": "Economic Impact Study"
+    },
+    {
+      "id": "red-river-cultural-district",
+      "title": "Red River Cultural District",
+      "client": "Red River Cultural District",
+      "location": {
+        "city": "Austin",
+        "region": "Texas",
+        "country": "United States",
+        "regionCode": "TX",
+        "lat": 30.2672,
+        "lng": -97.7431
+      },
+      "years": "2025",
+      "summary": "Economic impact study of a downtown Austin entertainment district.",
+      "tags": [
+        "Machine Learning",
+        "Scenario Modeling",
+        "Survey Instrument Design",
+        "Public Finance & Tax Analysis"
+      ],
+      "category": "Economic Impact Study"
+    },
+    {
+      "id": "serverfarm",
+      "title": "ServerFarm",
+      "client": "ServerFarm",
+      "location": {
+        "city": "Houston",
+        "region": "Texas",
+        "country": "United States",
+        "regionCode": "TX",
+        "lat": 29.7604,
+        "lng": -95.3698
+      },
+      "years": "2025",
+      "summary": "Site selection and incentive negotiation support for a data center project.",
+      "tags": [
+        "Market Analysis",
+        "Incentive Modeling & Forecasting",
+        "Strategic Recommendations"
+      ],
+      "category": "Site Selection"
+    },
+    {
+      "id": "baylor-university-bic",
+      "title": "Baylor University BIC",
+      "client": "Baylor University BIC",
+      "location": {
+        "city": "Waco",
+        "region": "Texas",
+        "country": "United States",
+        "regionCode": "TX",
+        "lat": 31.5493,
+        "lng": -97.1467
+      },
+      "years": "2026",
+      "summary": "Economic impact study of a university-affiliated business and innovation grant program.",
+      "tags": [
+        "Scenario Modeling",
+        "Public Finance & Tax Analysis"
+      ],
+      "category": "Economic Impact Study"
+    },
+    {
+      "id": "texas-state-university-cola",
+      "title": "Texas State University COLA",
+      "client": "Texas State University COLA",
+      "location": {
+        "city": "San Marcos",
+        "region": "Texas",
+        "country": "United States",
+        "regionCode": "TX",
+        "lat": 29.8833,
+        "lng": -97.9414
+      },
+      "years": "2026",
+      "summary": "Economic impact study of a university college's regional contribution.",
+      "tags": [
+        "Scenario Modeling",
+        "Public Finance & Tax Analysis"
+      ],
+      "category": "Economic Impact Study"
+    },
+    {
+      "id": "rodeo-austin",
+      "title": "Rodeo Austin",
+      "client": "Rodeo Austin",
+      "location": {
+        "city": "Austin",
+        "region": "Texas",
+        "country": "United States",
+        "regionCode": "TX",
+        "lat": 30.2672,
+        "lng": -97.7431
+      },
+      "years": "2026",
+      "summary": "Economic impact study and site selection support for the regional rodeo.",
+      "tags": [
+        "Forecasting",
+        "Scenario Modeling",
+        "Public Finance & Tax Analysis"
+      ],
+      "category": "Economic Impact Study"
+    },
+    {
+      "id": "provident-realty-advisors",
+      "title": "Provident Realty Advisors",
+      "client": "Provident Realty Advisors",
+      "location": {
+        "city": "Dallas",
+        "region": "Texas",
+        "country": "United States",
+        "regionCode": "TX",
+        "lat": 32.7767,
+        "lng": -96.797
+      },
+      "years": "2026",
+      "summary": "Economic impact study of a data center project, focused on school district bonding capacity.",
+      "tags": [],
+      "category": "Economic Impact Study"
+    },
+    {
+      "id": "still-austin-whiskey",
+      "title": "Still Austin Whiskey",
+      "client": "Still Austin Whiskey",
+      "location": {
+        "city": "Lockhart",
+        "region": "Texas",
+        "country": "United States",
+        "regionCode": "TX",
+        "lat": 29.8858,
+        "lng": -97.67
+      },
+      "years": "2026",
+      "summary": "Preliminary economic impact study of a distillery expansion.",
+      "tags": [],
+      "category": "Economic Impact Study"
+    },
+    {
+      "id": "timberline-real-estate-partners",
+      "title": "Timberline Real Estate Partners",
+      "client": "Timberline Real Estate Partners",
+      "location": {
+        "city": "Austin",
+        "region": "Texas",
+        "country": "United States",
+        "regionCode": "TX",
+        "lat": 30.2672,
+        "lng": -97.7431
+      },
+      "years": "2026",
+      "summary": "Economic impact study of a proposed mixed-use development.",
+      "tags": [
+        "Scenario Modeling",
+        "Cost-Benefit Analysis",
+        "Forecasting",
+        "Legislative & Policy Analysis",
+        "Market Analysis"
+      ],
+      "category": "Economic Impact Study"
+    },
+    {
+      "id": "palm-tree-music-festival-west-palm-beach",
+      "title": "Palm Tree Music Festival (West Palm Beach)",
+      "client": "Palm Tree Music Festival (West Palm Beach)",
+      "location": {
+        "city": "West Palm Beach",
+        "region": "Florida",
+        "country": "United States",
+        "regionCode": "FL",
+        "lat": 26.7153,
+        "lng": -80.0534
+      },
+      "years": "2026",
+      "summary": "Economic impact study of a regional music festival.",
+      "tags": [
+        "Forecasting",
+        "Scenario Modeling",
+        "Public Finance & Tax Analysis"
+      ],
+      "category": "Economic Impact Study"
+    },
+    {
+      "id": "south-by-southwest",
+      "title": "South By Southwest",
+      "client": "South By Southwest",
+      "location": {
+        "city": "Austin",
+        "region": "Texas",
+        "country": "United States",
+        "regionCode": "TX",
+        "lat": 30.2672,
+        "lng": -97.7431
+      },
+      "years": "2026",
+      "summary": "Economic impact study of Austin's globally renowned annual festival blending music, film, technology, and interactive media.",
+      "tags": [],
+      "category": "Economic Impact Study"
+    },
+    {
+      "id": "penske-corporation",
+      "title": "Penske Corporation",
+      "client": "Penske Corporation",
+      "location": {
+        "city": "Arlington",
+        "region": "Texas",
+        "country": "United States",
+        "regionCode": "TX",
+        "lat": 32.7357,
+        "lng": -97.1081
+      },
+      "years": "2026",
+      "summary": "Economic impact study of the first-of-its-kind street race launched by Penske Entertainment in partnership with the Dallas Cowboys and Texas Rangers.",
+      "tags": [],
+      "category": "Economic Impact Study"
+    }
+  ],
+  "mapProjects": [
+    {
+      "id": "amd-overall-us-impact",
+      "title": "Overall US impact",
+      "client": "AMD",
+      "category": "Economic Impact Study",
+      "location": {
+        "city": "Austin",
+        "region": "Texas",
+        "country": "United States",
+        "regionCode": "TX",
+        "lat": 30.2672,
+        "lng": -97.7431
+      },
+      "count": 1,
+      "years": "2019",
+      "summary": "National economic impact study used to support legislative testimony to the U.S. Congress.",
+      "tags": [
+        "Forecasting",
+        "Scenario Modeling",
+        "Legislative & Policy Analysis",
+        "Market Analysis",
+        "Public Finance & Tax Analysis",
+        "ROI Analysis"
+      ]
+    },
+    {
+      "id": "c3-presents-acl-impact",
+      "title": "ACL impact",
+      "client": "C3 Presents",
+      "category": "Economic Impact Study",
+      "location": {
+        "city": "Austin",
+        "region": "Texas",
+        "country": "United States",
+        "regionCode": "TX",
+        "lat": 30.2672,
+        "lng": -97.7431
+      },
+      "count": 6,
+      "years": "2019–present",
+      "summary": "Annual economic impact studies for major U.S. music festivals including ACL, Lollapalooza, Sueños, Bonnaroo, Dreamville, and others, plus site selection support.",
+      "tags": [
+        "Scenario Modeling",
+        "Survey Instrument Design",
+        "Public Finance & Tax Analysis",
+        "Forecasting",
+        "Media Engagement",
+        "Machine Learning"
+      ]
+    },
+    {
+      "id": "c3-presents-lollapalooza-impact",
+      "title": "Lollapalooza impact",
+      "client": "C3 Presents",
+      "category": "Economic Impact Study",
+      "location": {
+        "city": "Chicago",
+        "region": "Illinois",
+        "country": "United States",
+        "regionCode": "IL",
+        "lat": 41.8781,
+        "lng": -87.6298
+      },
+      "count": 6,
+      "years": "2019–present",
+      "summary": "Annual economic impact studies for major U.S. music festivals including ACL, Lollapalooza, Sueños, Bonnaroo, Dreamville, and others, plus site selection support.",
+      "tags": [
+        "Scenario Modeling",
+        "Survey Instrument Design",
+        "Public Finance & Tax Analysis",
+        "Media Engagement",
+        "Forecasting",
+        "Machine Learning"
+      ]
+    },
+    {
+      "id": "c3-presents-voodoo-impact",
+      "title": "Voodoo impact",
+      "client": "C3 Presents",
+      "category": "Economic Impact Study",
+      "location": {
+        "city": "New Orleans",
+        "region": "Louisiana",
+        "country": "United States",
+        "regionCode": "LA",
+        "lat": 29.9511,
+        "lng": -90.0715
+      },
+      "count": 1,
+      "years": "2019–present",
+      "summary": "Annual economic impact studies for major U.S. music festivals including ACL, Lollapalooza, Sueños, Bonnaroo, Dreamville, and others, plus site selection support.",
+      "tags": [
+        "Scenario Modeling",
+        "Survey Instrument Design",
+        "Public Finance & Tax Analysis"
+      ]
+    },
+    {
+      "id": "c3-presents-west-texas-art-music",
+      "title": "West Texas Art & Music",
+      "client": "C3 Presents",
+      "category": "Economic Impact Study",
+      "location": {
+        "city": "Marfa",
+        "region": "Texas",
+        "country": "United States",
+        "regionCode": "TX",
+        "lat": 30.3095,
+        "lng": -104.0227
+      },
+      "count": 1,
+      "years": "2019–present",
+      "summary": "Annual economic impact studies for major U.S. music festivals including ACL, Lollapalooza, Sueños, Bonnaroo, Dreamville, and others, plus site selection support.",
+      "tags": [
+        "Scenario Modeling",
+        "Survey Instrument Design",
+        "Public Finance & Tax Analysis"
+      ]
+    },
+    {
+      "id": "circuit-of-the-americas-f1-usgp-impact",
+      "title": "F1 USGP impact",
+      "client": "Circuit of the Americas",
+      "category": "Economic Impact Study",
+      "location": {
+        "city": "Austin",
+        "region": "Texas",
+        "country": "United States",
+        "regionCode": "TX",
+        "lat": 30.2672,
+        "lng": -97.7431
+      },
+      "count": 7,
+      "years": "2019–present",
+      "summary": "Annual economic impact studies for F1 United States Grand Prix, MotoGP, NASCAR, MotoAmerica, and WEC, supporting state event reimbursement applications.",
+      "tags": [
+        "Scenario Modeling",
+        "Survey Instrument Design",
+        "Public Finance & Tax Analysis",
+        "Incentive Modeling & Forecasting",
+        "Media Engagement",
+        "Forecasting"
+      ]
+    },
+    {
+      "id": "circuit-of-the-americas-indycar-impact",
+      "title": "IndyCar impact",
+      "client": "Circuit of the Americas",
+      "category": "Economic Impact Study",
+      "location": {
+        "city": "Austin",
+        "region": "Texas",
+        "country": "United States",
+        "regionCode": "TX",
+        "lat": 30.2672,
+        "lng": -97.7431
+      },
+      "count": 2,
+      "years": "2019–present",
+      "summary": "Annual economic impact studies for F1 United States Grand Prix, MotoGP, NASCAR, MotoAmerica, and WEC, supporting state event reimbursement applications.",
+      "tags": [
+        "Forecasting",
+        "Scenario Modeling",
+        "Survey Instrument Design",
+        "Public Finance & Tax Analysis",
+        "Incentive Modeling & Forecasting"
+      ]
+    },
+    {
+      "id": "circuit-of-the-americas-motogp-impact",
+      "title": "MotoGP impact",
+      "client": "Circuit of the Americas",
+      "category": "Economic Impact Study",
+      "location": {
+        "city": "Austin",
+        "region": "Texas",
+        "country": "United States",
+        "regionCode": "TX",
+        "lat": 30.2672,
+        "lng": -97.7431
+      },
+      "count": 6,
+      "years": "2019–present",
+      "summary": "Annual economic impact studies for F1 United States Grand Prix, MotoGP, NASCAR, MotoAmerica, and WEC, supporting state event reimbursement applications.",
+      "tags": [
+        "Forecasting",
+        "Scenario Modeling",
+        "Survey Instrument Design",
+        "Public Finance & Tax Analysis",
+        "Incentive Modeling & Forecasting",
+        "Machine Learning"
+      ]
+    },
+    {
+      "id": "city-of-nolanville-texas-rv-resort-impact",
+      "title": "RV Resort impact",
+      "client": "City of Nolanville, Texas",
+      "category": "Economic Impact Study",
+      "location": {
+        "city": "Nolanville",
+        "region": "Texas",
+        "country": "United States",
+        "regionCode": "TX",
+        "lat": 31.0757,
+        "lng": -97.632
+      },
+      "count": 1,
+      "years": "",
+      "summary": "Economic Impact Study — RV Resort impact",
+      "tags": [
+        "Forecasting",
+        "Scenario Modeling",
+        "Public Finance & Tax Analysis",
+        "New Growth Initiative/Strategy"
+      ]
+    },
+    {
+      "id": "niantic-redpeg-pokemon-go-chicago",
+      "title": "Pokémon Go Chicago",
+      "client": "Niantic/RedPeg",
+      "category": "Economic Impact Study",
+      "location": {
+        "city": "Chicago",
+        "region": "Illinois",
+        "country": "United States",
+        "regionCode": "IL",
+        "lat": 41.8781,
+        "lng": -87.6298
+      },
+      "count": 1,
+      "years": "2019",
+      "summary": "Economic impact study of Canada's first Pokémon GO Safari Zone festival.",
+      "tags": [
+        "Forecasting",
+        "Scenario Modeling",
+        "Survey Instrument Design",
+        "Public Finance & Tax Analysis",
+        "Qualitative Data Analysis"
+      ]
+    },
+    {
+      "id": "niantic-redpeg-pokemon-go-montreal",
+      "title": "Pokémon Go Montréal",
+      "client": "Niantic/RedPeg",
+      "category": "Economic Impact Study",
+      "location": {
+        "city": "Montréal",
+        "region": "Quebec",
+        "country": "Canada",
+        "lat": 45.5019,
+        "lng": -73.5674
+      },
+      "count": 1,
+      "years": "2019",
+      "summary": "Economic impact study of Canada's first Pokémon GO Safari Zone festival.",
+      "tags": [
+        "Forecasting",
+        "Scenario Modeling",
+        "Survey Instrument Design",
+        "Public Finance & Tax Analysis",
+        "Qualitative Data Analysis"
+      ]
+    },
+    {
+      "id": "respec-due-diligence-research",
+      "title": "Due diligence research",
+      "client": "RESPEC",
+      "category": "Company Acquisition",
+      "location": {
+        "city": "Rapid City",
+        "region": "South Dakota",
+        "country": "United States",
+        "regionCode": "SD",
+        "lat": 44.0805,
+        "lng": -103.231
+      },
+      "count": 1,
+      "years": "2019",
+      "summary": "Merger & acquisition due diligence identifying potential acquisition targets in the Colorado market.",
+      "tags": [
+        "Benchmarking & Competitive Analysis",
+        "Due Diligence",
+        "Market Analysis",
+        "Market Intelligence",
+        "Merger & Acquisition",
+        "New Growth Initiative/Strategy"
+      ]
+    },
+    {
+      "id": "city-of-kemmerer-wyoming-support-from-eda",
+      "title": "Support from EDA",
+      "client": "City of Kemmerer, Wyoming",
+      "category": "Economic Diversification",
+      "location": {
+        "city": "Kemmerer",
+        "region": "Wyoming",
+        "country": "United States",
+        "regionCode": "WY",
+        "lat": 41.7911,
+        "lng": -110.5387
+      },
+      "count": 3,
+      "years": "2020–2022",
+      "summary": "Multi-year economic diversification strategy for a coal-dependent community in transition, including target industry analysis and site readiness work; contributed to a nuclear energy developer selecting the community for a new project.",
+      "tags": [
+        "Benchmarking & Competitive Analysis",
+        "Define Vision/Strategy",
+        "Feasibility Analysis",
+        "Go-to-Market Strategy",
+        "Legislative & Policy Analysis",
+        "Market Analysis"
+      ]
+    },
+    {
+      "id": "circuit-of-the-americas-multi-year-impact",
+      "title": "Multi-year impact",
+      "client": "Circuit of the Americas",
+      "category": "Economic Impact Study",
+      "location": {
+        "city": "Austin",
+        "region": "Texas",
+        "country": "United States",
+        "regionCode": "TX",
+        "lat": 30.2672,
+        "lng": -97.7431
+      },
+      "count": 1,
+      "years": "2019–present",
+      "summary": "Annual economic impact studies for F1 United States Grand Prix, MotoGP, NASCAR, MotoAmerica, and WEC, supporting state event reimbursement applications.",
+      "tags": [
+        "Forecasting",
+        "Scenario Modeling",
+        "Legislative & Policy Analysis",
+        "Incentive Modeling & Forecasting",
+        "Public Finance & Tax Analysis"
+      ]
+    },
+    {
+      "id": "circuit-of-the-americas-nascar-impact",
+      "title": "NASCAR impact",
+      "client": "Circuit of the Americas",
+      "category": "Economic Impact Study",
+      "location": {
+        "city": "Austin",
+        "region": "Texas",
+        "country": "United States",
+        "regionCode": "TX",
+        "lat": 30.2672,
+        "lng": -97.7431
+      },
+      "count": 5,
+      "years": "2019–present",
+      "summary": "Annual economic impact studies for F1 United States Grand Prix, MotoGP, NASCAR, MotoAmerica, and WEC, supporting state event reimbursement applications.",
+      "tags": [
+        "Forecasting",
+        "Scenario Modeling",
+        "Survey Instrument Design",
+        "Public Finance & Tax Analysis",
+        "Incentive Modeling & Forecasting",
+        "Media Engagement"
+      ]
+    },
+    {
+      "id": "lancium-data-center-network",
+      "title": "Data center network",
+      "client": "Lancium",
+      "category": "Site Selection",
+      "location": {
+        "city": "Abilene",
+        "region": "Texas",
+        "country": "United States",
+        "regionCode": "TX",
+        "lat": 32.4487,
+        "lng": -99.7331
+      },
+      "count": 2,
+      "years": "2021",
+      "summary": "Site selection for a renewable-energy-powered data center network in West Texas.",
+      "tags": [
+        "Benchmarking & Competitive Analysis",
+        "Due Diligence",
+        "Economic Development Incentivies",
+        "Incentive Compliance & Monitoring",
+        "Incentive Modeling & Forecasting",
+        "Incentive Program Design & Implementation"
+      ]
+    },
+    {
+      "id": "mass-general-brigham-system-statewide-impact",
+      "title": "Statewide impact",
+      "client": "Mass General Brigham System",
+      "category": "Economic Impact Study",
+      "location": {
+        "city": "Boston",
+        "region": "Massachusetts",
+        "country": "United States",
+        "regionCode": "MA",
+        "lat": 42.3601,
+        "lng": -71.0589
+      },
+      "count": 2,
+      "years": "2021–2022",
+      "summary": "Statewide economic impact study of one of Massachusetts's largest health systems, used for internal and state legislative purposes.",
+      "tags": [
+        "Scenario Modeling",
+        "Cost-Benefit Analysis",
+        "Database Management",
+        "Forecasting",
+        "Joint Ventures",
+        "Legislative & Policy Analysis"
+      ]
+    },
+    {
+      "id": "oncor-electric-delivery-company-scenario-modeling",
+      "title": "Scenario modeling",
+      "client": "Oncor Electric Delivery Company",
+      "category": "Economic Impact Study",
+      "location": {
+        "city": "Dallas",
+        "region": "Texas",
+        "country": "United States",
+        "regionCode": "TX",
+        "lat": 32.7767,
+        "lng": -96.797
+      },
+      "count": 1,
+      "years": "2021",
+      "summary": "Scenario modeling of household savings and regional economic activity from an expanded utility service territory.",
+      "tags": [
+        "Scenario Modeling",
+        "Cost-Benefit Analysis",
+        "Database Management",
+        "Forecasting",
+        "Joint Ventures",
+        "Legislative & Policy Analysis"
+      ]
+    },
+    {
+      "id": "prospera-30-year-impact",
+      "title": "30-year impact",
+      "client": "Prospera",
+      "category": "Economic Impact Study",
+      "location": {
+        "city": "Orlando",
+        "region": "Florida",
+        "country": "United States",
+        "regionCode": "FL",
+        "lat": 28.5383,
+        "lng": -81.3792
+      },
+      "count": 2,
+      "years": "2021–2022",
+      "summary": "30-year economic impact study of a nonprofit supporting Hispanic entrepreneurs across Florida and North Carolina, later updated.",
+      "tags": [
+        "Forecasting",
+        "Scenario Modeling",
+        "Survey Instrument Design",
+        "Public Finance & Tax Analysis"
+      ]
+    },
+    {
+      "id": "secure-democracy-tx-legislative-impact",
+      "title": "TX legislative impact",
+      "client": "Secure Democracy",
+      "category": "Fiscal Impact Analysis",
+      "location": {
+        "city": "Austin",
+        "region": "Texas",
+        "country": "United States",
+        "regionCode": "TX",
+        "lat": 30.2672,
+        "lng": -97.7431
+      },
+      "count": 1,
+      "years": "2021",
+      "summary": "Fiscal impact analysis of proposed Texas election-audit legislation.",
+      "tags": [
+        "Forecasting",
+        "Legislative & Policy Analysis",
+        "Policy Implementation",
+        "Public Finance & Tax Analysis",
+        "Scenario Modeling"
+      ]
+    },
+    {
+      "id": "the-trail-foundation-localized-impact",
+      "title": "Localized impact",
+      "client": "The Trail Foundation",
+      "category": "Economic Impact Study",
+      "location": {
+        "city": "Austin",
+        "region": "Texas",
+        "country": "United States",
+        "regionCode": "TX",
+        "lat": 30.2672,
+        "lng": -97.7431
+      },
+      "count": 1,
+      "years": "2021",
+      "summary": "Localized economic impact study.",
+      "tags": [
+        "Forecasting",
+        "Strategic Partnerships",
+        "Public Finance & Tax Analysis"
+      ]
+    },
+    {
+      "id": "tomo-networks-regional-hq",
+      "title": "Regional HQ",
+      "client": "Tomo Networks",
+      "category": "Site Selection",
+      "location": {
+        "city": "Austin",
+        "region": "Texas",
+        "country": "United States",
+        "regionCode": "TX",
+        "lat": 30.2672,
+        "lng": -97.7431
+      },
+      "count": 1,
+      "years": "2021",
+      "summary": "Site selection support for establishing a regional headquarters in Austin.",
+      "tags": [
+        "Forecasting",
+        "Scenario Modeling",
+        "Site Selection",
+        "Public Finance & Tax Analysis",
+        "Incentive Modeling & Forecasting",
+        "Due Diligence"
+      ]
+    },
+    {
+      "id": "violet-crown-amphitheater-financial-modeling",
+      "title": "Financial modeling",
+      "client": "Violet Crown Amphitheater",
+      "category": "Feasibility Analysis",
+      "location": {
+        "city": "Austin",
+        "region": "Texas",
+        "country": "United States",
+        "regionCode": "TX",
+        "lat": 30.2672,
+        "lng": -97.7431
+      },
+      "count": 1,
+      "years": "2021",
+      "summary": "20-year feasibility and economic impact study for a proposed music venue and mixed-use development.",
+      "tags": [
+        "Forecasting",
+        "Scenario Modeling",
+        "Public Finance & Tax Analysis",
+        "Media Engagement"
+      ]
+    },
+    {
+      "id": "ac-entertainment-big-ears-impact",
+      "title": "Big Ears impact",
+      "client": "AC Entertainment",
+      "category": "Economic Impact Study",
+      "location": {
+        "city": "Knoxville",
+        "region": "Tennessee",
+        "country": "United States",
+        "regionCode": "TN",
+        "lat": 35.9606,
+        "lng": -83.9207
+      },
+      "count": 3,
+      "years": "2022–present",
+      "summary": "Recurring economic impact study for the Big Ears music festival.",
+      "tags": [
+        "Forecasting",
+        "Scenario Modeling",
+        "Survey Instrument Design",
+        "Media Engagement",
+        "Public Finance & Tax Analysis"
+      ]
+    },
+    {
+      "id": "buda-edc-citywide-analysis",
+      "title": "Citywide analysis",
+      "client": "Buda EDC",
+      "category": "Target Industry Analysis",
+      "location": {
+        "city": "Buda",
+        "region": "Texas",
+        "country": "United States",
+        "regionCode": "TX",
+        "lat": 30.0852,
+        "lng": -97.8403
+      },
+      "count": 1,
+      "years": "2022, 2024",
+      "summary": "Target industry analysis followed by a five-year economic development implementation strategy.",
+      "tags": [
+        "Benchmarking & Competitive Analysis",
+        "Stakeholder Engagement",
+        "New Growth Initiative/Strategy",
+        "Market Analysis",
+        "Joint Ventures"
+      ]
+    },
+    {
+      "id": "c3-presents-suenos-impact",
+      "title": "Sueños impact",
+      "client": "C3 Presents",
+      "category": "Economic Impact Study",
+      "location": {
+        "city": "Chicago",
+        "region": "Illinois",
+        "country": "United States",
+        "regionCode": "IL",
+        "lat": 41.8781,
+        "lng": -87.6298
+      },
+      "count": 3,
+      "years": "2019–present",
+      "summary": "Annual economic impact studies for major U.S. music festivals including ACL, Lollapalooza, Sueños, Bonnaroo, Dreamville, and others, plus site selection support.",
+      "tags": [
+        "Forecasting",
+        "Scenario Modeling",
+        "Survey Instrument Design",
+        "135",
+        "Public Finance & Tax Analysis"
+      ]
+    },
+    {
+      "id": "city-of-butte-mt-city-county-impact",
+      "title": "City & county impact",
+      "client": "City of Butte, MT",
+      "category": "Retail Leakage Analysis",
+      "location": {
+        "city": "Butte",
+        "region": "Montana",
+        "country": "United States",
+        "regionCode": "MT",
+        "lat": 46.0038,
+        "lng": -112.5348
+      },
+      "count": 1,
+      "years": "2022",
+      "summary": "Retail leakage analysis for the city and county.",
+      "tags": [
+        "Forecasting",
+        "Scenario Modeling",
+        "Public Finance & Tax Analysis"
+      ]
+    },
+    {
+      "id": "city-of-cedar-rapids-ia-citywide-impact",
+      "title": "Citywide impact",
+      "client": "City of Cedar Rapids, IA",
+      "category": "Workforce Development",
+      "location": {
+        "city": "Cedar Rapids",
+        "region": "Iowa",
+        "country": "United States",
+        "regionCode": "IA",
+        "lat": 41.9779,
+        "lng": -91.6656
+      },
+      "count": 1,
+      "years": "2022",
+      "summary": "Target industry analysis identifying priority growth sectors to guide citywide workforce development.",
+      "tags": [
+        "Market Analysis",
+        "Target Industry Analysis",
+        "Stakeholder Engagement",
+        "Strategic Business Opportunities",
+        "Process Optimization",
+        "Program Evaluation"
+      ]
+    },
+    {
+      "id": "mississippi-county-ar-county-analysis",
+      "title": "County analysis",
+      "client": "Mississippi County, AR",
+      "category": "Workforce Development",
+      "location": {
+        "city": "Blytheville",
+        "region": "Arkansas",
+        "country": "United States",
+        "regionCode": "AR",
+        "lat": 35.9273,
+        "lng": -89.9187
+      },
+      "count": 1,
+      "years": "2022",
+      "summary": "Workforce demographic analysis for a regional economic development foundation.",
+      "tags": [
+        "Market Analysis",
+        "Forecasting",
+        "Scenario Modeling",
+        "Public Finance & Tax Analysis"
+      ]
+    },
+    {
+      "id": "national-entrepreneur-center-5-year-impact",
+      "title": "5-year impact",
+      "client": "National Entrepreneur Center",
+      "category": "Economic Impact Study",
+      "location": {
+        "city": "Orlando",
+        "region": "Florida",
+        "country": "United States",
+        "regionCode": "FL",
+        "lat": 28.5383,
+        "lng": -81.3792
+      },
+      "count": 1,
+      "years": "2022",
+      "summary": "Multi-year economic impact and ROI analysis of an entrepreneurship support center.",
+      "tags": [
+        "Scenario Modeling",
+        "Forecasting",
+        "Public Finance & Tax Analysis",
+        "Media Engagement",
+        "ROI Analysis",
+        "Qualitative Data Analysis"
+      ]
+    },
+    {
+      "id": "sh-130-connector-tollway-impact",
+      "title": "Tollway impact",
+      "client": "SH 130 Connector",
+      "category": "Economic Impact Study",
+      "location": {
+        "city": "Buda",
+        "region": "Texas",
+        "country": "United States",
+        "regionCode": "TX",
+        "lat": 30.0852,
+        "lng": -97.8403
+      },
+      "count": 1,
+      "years": "2022",
+      "summary": "Economic impact study of a proposed regional tollway connector.",
+      "tags": [
+        "Scenario Modeling",
+        "Forecasting",
+        "Public Finance & Tax Analysis",
+        "Market Analysis"
+      ]
+    },
+    {
+      "id": "texas-motorplex-nhra-impact",
+      "title": "NHRA impact",
+      "client": "Texas Motorplex",
+      "category": "Economic Impact Study",
+      "location": {
+        "city": "Ennis",
+        "region": "Texas",
+        "country": "United States",
+        "regionCode": "TX",
+        "lat": 32.3293,
+        "lng": -96.625
+      },
+      "count": 5,
+      "years": "2022–present",
+      "summary": "Annual economic impact study for the NHRA Texas Fall Nationals drag racing event, supporting state reimbursement program applications.",
+      "tags": [
+        "Forecasting",
+        "Scenario Modeling",
+        "Survey Instrument Design",
+        "Public Finance & Tax Analysis",
+        "Incentive Modeling & Forecasting",
+        "Machine Learning"
+      ]
+    },
+    {
+      "id": "beaumont-tx-chamber-of-commerce-citywide-strategy",
+      "title": "Citywide strategy",
+      "client": "Beaumont, TX (Chamber of Commerce)",
+      "category": "Economic Development",
+      "location": {
+        "city": "Beaumont",
+        "region": "Texas",
+        "country": "United States",
+        "regionCode": "TX",
+        "lat": 30.0802,
+        "lng": -94.1266
+      },
+      "count": 2,
+      "years": "2023–2024",
+      "summary": "Citywide economic development strategy identifying priority industries and growth initiatives.",
+      "tags": [
+        "Benchmarking & Competitive Analysis",
+        "Define Vision/Strategy",
+        "Due Diligence",
+        "Economic Development Incentives",
+        "Feasibility Analysis",
+        "Incentive Modeling & Forecasting"
+      ]
+    },
+    {
+      "id": "c3-presents-bonnaroo-impact",
+      "title": "Bonnaroo impact",
+      "client": "C3 Presents",
+      "category": "Economic Impact Study",
+      "location": {
+        "city": "Manchester",
+        "region": "Tennessee",
+        "country": "United States",
+        "regionCode": "TN",
+        "lat": 35.4809,
+        "lng": -86.0886
+      },
+      "count": 3,
+      "years": "2019–present",
+      "summary": "Annual economic impact studies for major U.S. music festivals including ACL, Lollapalooza, Sueños, Bonnaroo, Dreamville, and others, plus site selection support.",
+      "tags": [
+        "Forecasting",
+        "Scenario Modeling",
+        "Survey Instrument Design",
+        "Public Finance & Tax Analysis",
+        "Media Engagement"
+      ]
+    },
+    {
+      "id": "c3-presents-dreamville-impact",
+      "title": "Dreamville impact",
+      "client": "C3 Presents",
+      "category": "Economic Impact Study",
+      "location": {
+        "city": "Raleigh",
+        "region": "North Carolina",
+        "country": "United States",
+        "regionCode": "NC",
+        "lat": 35.7796,
+        "lng": -78.6382
+      },
+      "count": 2,
+      "years": "2019–present",
+      "summary": "Annual economic impact studies for major U.S. music festivals including ACL, Lollapalooza, Sueños, Bonnaroo, Dreamville, and others, plus site selection support.",
+      "tags": [
+        "Forecasting",
+        "Scenario Modeling",
+        "Survey Instrument Design",
+        "Media Engagement",
+        "Public Finance & Tax Analysis"
+      ]
+    },
+    {
+      "id": "c3-presents-fairwell-impact",
+      "title": "FairWell impact",
+      "client": "C3 Presents",
+      "category": "Economic Impact Study",
+      "location": {
+        "city": "Redmond",
+        "region": "Oregon",
+        "country": "United States",
+        "regionCode": "OR",
+        "lat": 44.2726,
+        "lng": -121.1739
+      },
+      "count": 1,
+      "years": "2019–present",
+      "summary": "Annual economic impact studies for major U.S. music festivals including ACL, Lollapalooza, Sueños, Bonnaroo, Dreamville, and others, plus site selection support.",
+      "tags": [
+        "Forecasting",
+        "Scenario Modeling",
+        "Survey Instrument Design",
+        "Public Finance & Tax Analysis"
+      ]
+    },
+    {
+      "id": "c3-presents-high-water-impact",
+      "title": "High Water impact",
+      "client": "C3 Presents",
+      "category": "Economic Impact Study",
+      "location": {
+        "city": "North Charleston",
+        "region": "South Carolina",
+        "country": "United States",
+        "regionCode": "SC",
+        "lat": 32.8546,
+        "lng": -79.9748
+      },
+      "count": 3,
+      "years": "2019–present",
+      "summary": "Annual economic impact studies for major U.S. music festivals including ACL, Lollapalooza, Sueños, Bonnaroo, Dreamville, and others, plus site selection support.",
+      "tags": [
+        "Scenario Modeling",
+        "Survey Instrument Design",
+        "Public Finance & Tax Analysis",
+        "Forecasting",
+        "Machine Learning"
+      ]
+    },
+    {
+      "id": "c3-presents-sea-hear-now-impact",
+      "title": "Sea Hear Now impact",
+      "client": "C3 Presents",
+      "category": "Economic Impact Study",
+      "location": {
+        "city": "Asbury Park",
+        "region": "New Jersey",
+        "country": "United States",
+        "regionCode": "NJ",
+        "lat": 40.2204,
+        "lng": -74.0121
+      },
+      "count": 1,
+      "years": "2019–present",
+      "summary": "Annual economic impact studies for major U.S. music festivals including ACL, Lollapalooza, Sueños, Bonnaroo, Dreamville, and others, plus site selection support.",
+      "tags": [
+        "Forecasting",
+        "Scenario Modeling",
+        "Survey Instrument Design",
+        "Public Finance & Tax Analysis"
+      ]
+    },
+    {
+      "id": "c3-presents-two-step-inn-impact",
+      "title": "Two Step Inn impact",
+      "client": "C3 Presents",
+      "category": "Economic Impact Study",
+      "location": {
+        "city": "Georgetown",
+        "region": "Texas",
+        "country": "United States",
+        "regionCode": "TX",
+        "lat": 30.6333,
+        "lng": -97.678
+      },
+      "count": 4,
+      "years": "2019–present",
+      "summary": "Annual economic impact studies for major U.S. music festivals including ACL, Lollapalooza, Sueños, Bonnaroo, Dreamville, and others, plus site selection support.",
+      "tags": [
+        "Scenario Modeling",
+        "Survey Instrument Design",
+        "Public Finance & Tax Analysis",
+        "Forecasting"
+      ]
+    },
+    {
+      "id": "circuit-of-the-americas-motoamerica-impact",
+      "title": "MotoAmerica impact",
+      "client": "Circuit of the Americas",
+      "category": "Economic Impact Study",
+      "location": {
+        "city": "Austin",
+        "region": "Texas",
+        "country": "United States",
+        "regionCode": "TX",
+        "lat": 30.2672,
+        "lng": -97.7431
+      },
+      "count": 4,
+      "years": "2019–present",
+      "summary": "Annual economic impact studies for F1 United States Grand Prix, MotoGP, NASCAR, MotoAmerica, and WEC, supporting state event reimbursement applications.",
+      "tags": [
+        "Forecasting",
+        "Scenario Modeling",
+        "Survey Instrument Design",
+        "Public Finance & Tax Analysis",
+        "Incentive Modeling & Forecasting"
+      ]
+    },
+    {
+      "id": "galati-county-romania-countywide-strategy",
+      "title": "Countywide strategy",
+      "client": "Galați County, Romania",
+      "category": "Economic Development",
+      "location": {
+        "city": "Galați",
+        "region": "Galați",
+        "country": "Romania",
+        "lat": 45.4353,
+        "lng": 28.008
+      },
+      "count": 3,
+      "years": "2023–present",
+      "summary": "Comprehensive economic development strategy, market assessment, and target industry analysis, supporting an ongoing international delegation and investment relationship with Central Texas.",
+      "tags": [
+        "Benchmarking & Competitive Analysis",
+        "Database Management",
+        "Define Vision/Strategy",
+        "Due Diligence",
+        "Economic Development Incentives",
+        "Go-to-Market Strategy"
+      ]
+    },
+    {
+      "id": "garrison-brothers-scenario-modeling",
+      "title": "Scenario modeling",
+      "client": "Garrison Brothers",
+      "category": "Economic Impact Study",
+      "location": {
+        "city": "Hye",
+        "region": "Texas",
+        "country": "United States",
+        "regionCode": "TX",
+        "lat": 30.2408,
+        "lng": -98.5945
+      },
+      "count": 1,
+      "years": "2023",
+      "summary": "Economic impact study of a proposed regional hike-and-bike trail.",
+      "tags": [
+        "Feasibility Analysis",
+        "Forecasting",
+        "Scenario Modeling",
+        "Public Finance & Tax Analysis"
+      ]
+    },
+    {
+      "id": "greater-austin-asian-chamber-of-commerce-gaacc-impac",
+      "title": "GAACC impact",
+      "client": "Greater Austin Asian Chamber of Commerce",
+      "category": "Economic Impact Study",
+      "location": {
+        "city": "Austin",
+        "region": "Texas",
+        "country": "United States",
+        "regionCode": "TX",
+        "lat": 30.2672,
+        "lng": -97.7431
+      },
+      "count": 4,
+      "years": "2023–present",
+      "summary": "Annual pro bono economic impact study for the chamber's member network.",
+      "tags": [
+        "Scenario Modeling",
+        "Public Finance & Tax Analysis",
+        "Market Analysis",
+        "Survey Instrument Design",
+        "Qualitative Data Analysis"
+      ]
+    },
+    {
+      "id": "m-aerospace-rtc-industrial-factory",
+      "title": "Industrial factory",
+      "client": "M Aerospace RTC",
+      "category": "Site Selection",
+      "location": {
+        "city": "Mexicali",
+        "region": "Baja California",
+        "country": "Mexico",
+        "lat": 32.6245,
+        "lng": -115.4523
+      },
+      "count": 1,
+      "years": "2023",
+      "summary": "Site selection support for a U.S. manufacturing facility to fulfill a Navy contract requirement.",
+      "tags": [
+        "Forecasting",
+        "Scenario Modeling",
+        "Site Selection",
+        "Incentive Modeling & Forecasting",
+        "Public Finance & Tax Analysis"
+      ]
+    },
+    {
+      "id": "nucor-yamato-steel-nucor-impact",
+      "title": "Nucor impact",
+      "client": "Nucor-Yamato Steel",
+      "category": "Economic Impact Study",
+      "location": {
+        "city": "Blytheville",
+        "region": "Arkansas",
+        "country": "United States",
+        "regionCode": "AR",
+        "lat": 35.9273,
+        "lng": -89.9187
+      },
+      "count": 1,
+      "years": "2023",
+      "summary": "Multi-year economic impact study of a major steel mill's Arkansas operations.",
+      "tags": [
+        "Forecasting",
+        "Scenario Modeling",
+        "Public Finance & Tax Analysis",
+        "Legislative & Policy Analysis"
+      ]
+    },
+    {
+      "id": "rida-scenario-modeling",
+      "title": "Scenario modeling",
+      "client": "RIDA",
+      "category": "Economic Impact Study",
+      "location": {
+        "city": "Austin",
+        "region": "Texas",
+        "country": "United States",
+        "regionCode": "TX",
+        "lat": 30.2672,
+        "lng": -97.7431
+      },
+      "count": 1,
+      "years": "2023, 2025",
+      "summary": "Scenario modeling for a real estate development project in eastern Travis County.",
+      "tags": [
+        "Cost-Benefit Analysis",
+        "Market Analysis",
+        "Public Finance & Tax Analysis"
+      ]
+    },
+    {
+      "id": "southwest-medical-corridor-scenario-modeling",
+      "title": "Scenario modeling",
+      "client": "Southwest Medical Corridor",
+      "category": "Economic Impact Study",
+      "location": {
+        "city": "Dallas",
+        "region": "Texas",
+        "country": "United States",
+        "regionCode": "TX",
+        "lat": 32.7767,
+        "lng": -96.797
+      },
+      "count": 1,
+      "years": "2023",
+      "summary": "Scenario modeling for a medical district redevelopment.",
+      "tags": [
+        "Cost-Benefit Analysis",
+        "Database Management",
+        "Forecasting",
+        "Joint Ventures",
+        "Legislative & Policy Analysis",
+        "Market Analysis"
+      ]
+    },
+    {
+      "id": "tango-lima-presidio-border-bridge-impact",
+      "title": "Border bridge impact",
+      "client": "Tango Lima (Presidio)",
+      "category": "Economic Impact Study",
+      "location": {
+        "city": "Presidio",
+        "region": "Texas",
+        "country": "United States",
+        "regionCode": "TX",
+        "lat": 29.5608,
+        "lng": -104.3736
+      },
+      "count": 2,
+      "years": "2023–2024",
+      "summary": "Economic impact study of a proposed international border bridge crossing.",
+      "tags": [
+        "Scenario Modeling",
+        "Public Finance & Tax Analysis",
+        "Legislative & Policy Analysis"
+      ]
+    },
+    {
+      "id": "texans-for-clean-water-tx-legislative-impact",
+      "title": "TX legislative impact",
+      "client": "Texans for Clean Water",
+      "category": "Fiscal Impact Analysis",
+      "location": {
+        "city": "Austin",
+        "region": "Texas",
+        "country": "United States",
+        "regionCode": "TX",
+        "lat": 30.2672,
+        "lng": -97.7431
+      },
+      "count": 1,
+      "years": "2023",
+      "summary": "Legislative fiscal impact analysis of statewide recycling incentive policy scenarios.",
+      "tags": [
+        "Forecasting",
+        "Legislative & Policy Analysis",
+        "Policy Implementation",
+        "Public Finance & Tax Analysis",
+        "Scenario Modeling"
+      ]
+    },
+    {
+      "id": "vanelli-due-diligence",
+      "title": "Due diligence",
+      "client": "Vanelli",
+      "category": "US Market Entry",
+      "location": {
+        "city": "Lețcani",
+        "region": "Iași",
+        "country": "Romania",
+        "lat": 47.15,
+        "lng": 27.3167
+      },
+      "count": 2,
+      "years": "2023–2024",
+      "summary": "US market entry and growth strategy for a Romanian health and animal-supplement company.",
+      "tags": [
+        "Go-to-Market Strategy",
+        "Market Analysis",
+        "Market Intelligence",
+        "Merger & Acquisition",
+        "Strategic Recommendations"
+      ]
+    },
+    {
+      "id": "belly-up-aspen-palm-tree-impact",
+      "title": "Palm Tree impact",
+      "client": "Belly Up Aspen",
+      "category": "Economic Impact Study",
+      "location": {
+        "city": "Aspen",
+        "region": "Colorado",
+        "country": "United States",
+        "regionCode": "CO",
+        "lat": 39.1911,
+        "lng": -106.8175
+      },
+      "count": 3,
+      "years": "2024–present",
+      "summary": "Annual economic impact studies for the Palm Tree Festival and Up in the Sky Festival.",
+      "tags": [
+        "Forecasting",
+        "Scenario Modeling",
+        "Survey Instrument Design",
+        "Media Engagement",
+        "Public Finance & Tax Analysis"
+      ]
+    },
+    {
+      "id": "blast-tv-crowdstrike-impact",
+      "title": "Crowdstrike impact",
+      "client": "Blast.tv",
+      "category": "Economic Impact Study",
+      "location": {
+        "city": "Austin",
+        "region": "Texas",
+        "country": "United States",
+        "regionCode": "TX",
+        "lat": 30.2672,
+        "lng": -97.7431
+      },
+      "count": 1,
+      "years": "2024",
+      "summary": "Economic impact study for a major esports (Counter-Strike) tournament, supporting a state reimbursement program application.",
+      "tags": [
+        "Forecasting",
+        "Scenario Modeling",
+        "Survey Instrument Design",
+        "Public Finance & Tax Analysis"
+      ]
+    },
+    {
+      "id": "buda-edc-implementation-strategy",
+      "title": "Implementation strategy",
+      "client": "Buda EDC",
+      "category": "Economic Development",
+      "location": {
+        "city": "Buda",
+        "region": "Texas",
+        "country": "United States",
+        "regionCode": "TX",
+        "lat": 30.0852,
+        "lng": -97.8403
+      },
+      "count": 1,
+      "years": "2022, 2024",
+      "summary": "Target industry analysis followed by a five-year economic development implementation strategy.",
+      "tags": [
+        "Target Industry Analysis",
+        "Benchmarking & Competitive Analysis",
+        "Stakeholder Engagement",
+        "New Growth Initiative/Strategy",
+        "Market Analysis",
+        "Joint Ventures"
+      ]
+    },
+    {
+      "id": "c3-presents-extra-innings-impact",
+      "title": "Extra Innings impact",
+      "client": "C3 Presents",
+      "category": "Economic Impact Study",
+      "location": {
+        "city": "Tempe",
+        "region": "Arizona",
+        "country": "United States",
+        "regionCode": "AZ",
+        "lat": 33.4255,
+        "lng": -111.94
+      },
+      "count": 2,
+      "years": "2019–present",
+      "summary": "Annual economic impact studies for major U.S. music festivals including ACL, Lollapalooza, Sueños, Bonnaroo, Dreamville, and others, plus site selection support.",
+      "tags": [
+        "Forecasting",
+        "Scenario Modeling",
+        "Survey Instrument Design",
+        "Public Finance & Tax Analysis"
+      ]
+    },
+    {
+      "id": "c3-presents-gov-ball-impact",
+      "title": "Gov Ball impact",
+      "client": "C3 Presents",
+      "category": "Economic Impact Study",
+      "location": {
+        "city": "Queens",
+        "region": "New York",
+        "country": "United States",
+        "regionCode": "NY",
+        "lat": 40.7282,
+        "lng": -73.7949
+      },
+      "count": 2,
+      "years": "2019–present",
+      "summary": "Annual economic impact studies for major U.S. music festivals including ACL, Lollapalooza, Sueños, Bonnaroo, Dreamville, and others, plus site selection support.",
+      "tags": [
+        "Forecasting",
+        "Scenario Modeling",
+        "Survey Instrument Design",
+        "Public Finance & Tax Analysis"
+      ]
+    },
+    {
+      "id": "c3-presents-myc-impact",
+      "title": "MYC impact",
+      "client": "C3 Presents",
+      "category": "Economic Impact Study",
+      "location": {
+        "city": "St. Paul",
+        "region": "Minnesota",
+        "country": "United States",
+        "regionCode": "MN",
+        "lat": 44.9537,
+        "lng": -93.09
+      },
+      "count": 1,
+      "years": "2019–present",
+      "summary": "Annual economic impact studies for major U.S. music festivals including ACL, Lollapalooza, Sueños, Bonnaroo, Dreamville, and others, plus site selection support.",
+      "tags": [
+        "Forecasting",
+        "Scenario Modeling",
+        "Survey Instrument Design",
+        "Public Finance & Tax Analysis"
+      ]
+    },
+    {
+      "id": "c3-presents-oceans-calling-impact",
+      "title": "Oceans Calling impact",
+      "client": "C3 Presents",
+      "category": "Economic Impact Study",
+      "location": {
+        "city": "Ocean City",
+        "region": "Maryland",
+        "country": "United States",
+        "regionCode": "MD",
+        "lat": 38.3365,
+        "lng": -75.0849
+      },
+      "count": 1,
+      "years": "2019–present",
+      "summary": "Annual economic impact studies for major U.S. music festivals including ACL, Lollapalooza, Sueños, Bonnaroo, Dreamville, and others, plus site selection support.",
+      "tags": [
+        "Forecasting",
+        "Scenario Modeling",
+        "Survey Instrument Design",
+        "Public Finance & Tax Analysis"
+      ]
+    },
+    {
+      "id": "c3-presents-railbird-impact",
+      "title": "Railbird impact",
+      "client": "C3 Presents",
+      "category": "Economic Impact Study",
+      "location": {
+        "city": "Lexington",
+        "region": "Kentucky",
+        "country": "United States",
+        "regionCode": "KY",
+        "lat": 38.0406,
+        "lng": -84.5037
+      },
+      "count": 2,
+      "years": "2019–present",
+      "summary": "Annual economic impact studies for major U.S. music festivals including ACL, Lollapalooza, Sueños, Bonnaroo, Dreamville, and others, plus site selection support.",
+      "tags": [
+        "Forecasting",
+        "Scenario Modeling",
+        "Survey Instrument Design",
+        "Public Finance & Tax Analysis",
+        "Machine Learning"
+      ]
+    },
+    {
+      "id": "cesium-astro-company-expansion-impact",
+      "title": "Company expansion impact",
+      "client": "Cesium Astro",
+      "category": "Economic Impact Study",
+      "location": {
+        "city": "Bee Cave",
+        "region": "Texas",
+        "country": "United States",
+        "regionCode": "TX",
+        "lat": 30.3085,
+        "lng": -97.9425
+      },
+      "count": 1,
+      "years": "2024",
+      "summary": "Economic impact study of an aerospace and satellite-communications company's headquarters and manufacturing expansion.",
+      "tags": [
+        "Forecasting",
+        "Scenario Modeling",
+        "Public Finance & Tax Analysis",
+        "Strategic Recommendations"
+      ]
+    },
+    {
+      "id": "circuit-of-the-americas-wec-impact",
+      "title": "WEC impact",
+      "client": "Circuit of the Americas",
+      "category": "Economic Impact Study",
+      "location": {
+        "city": "Austin",
+        "region": "Texas",
+        "country": "United States",
+        "regionCode": "TX",
+        "lat": 30.2672,
+        "lng": -97.7431
+      },
+      "count": 3,
+      "years": "2019–present",
+      "summary": "Annual economic impact studies for F1 United States Grand Prix, MotoGP, NASCAR, MotoAmerica, and WEC, supporting state event reimbursement applications.",
+      "tags": [
+        "Forecasting",
+        "Scenario Modeling",
+        "Survey Instrument Design",
+        "Public Finance & Tax Analysis",
+        "Incentive Modeling & Forecasting"
+      ]
+    },
+    {
+      "id": "great-springs-project-scenario-modeling",
+      "title": "Scenario modeling",
+      "client": "Great Springs Project",
+      "category": "Economic Impact Study",
+      "location": {
+        "city": "San Antonio",
+        "region": "Texas",
+        "country": "United States",
+        "regionCode": "TX",
+        "lat": 29.4241,
+        "lng": -98.4936
+      },
+      "count": 1,
+      "years": "2024",
+      "summary": "Multi-county economic, conservation, and health impact study for a proposed regional trail network.",
+      "tags": [
+        "Forecasting",
+        "Scenario Modeling",
+        "Public Finance & Tax Analysis"
+      ]
+    },
+    {
+      "id": "igt-texas-lottery-texas-assocation-of-business-tab-t",
+      "title": "TX legislative review",
+      "client": "IGT (Texas Lottery) / Texas Assocation of Business (TAB)",
+      "category": "Economic Impact Study",
+      "location": {
+        "city": "Austin",
+        "region": "Texas",
+        "country": "United States",
+        "regionCode": "TX",
+        "lat": 30.2672,
+        "lng": -97.7431
+      },
+      "count": 2,
+      "years": "",
+      "summary": "Economic Impact Study — TX legislative review",
+      "tags": [
+        "Forecasting",
+        "Scenario Modeling",
+        "Public Finance & Tax Analysis",
+        "Legislative & Policy Analysis",
+        "Policy Implementation"
+      ]
+    },
+    {
+      "id": "kansas-city-mo-development-strategy",
+      "title": "Development strategy",
+      "client": "Kansas City, MO",
+      "category": "Economic Development",
+      "location": {
+        "city": "Kansas City",
+        "region": "Missouri",
+        "country": "United States",
+        "regionCode": "MO",
+        "lat": 39.0997,
+        "lng": -94.5786
+      },
+      "count": 2,
+      "years": "2024–2025",
+      "summary": "Citywide equitable economic development strategy, including target industry analysis and policy recommendations.",
+      "tags": [
+        "Benchmarking & Competitive Analysis",
+        "Define Vision/Strategy",
+        "Due Diligence",
+        "Economic Development Incentives",
+        "Feasibility Analysis",
+        "Incentive Modeling & Forecasting"
+      ]
+    },
+    {
+      "id": "knoxville-asian-festival-festival-impact",
+      "title": "Festival impact",
+      "client": "Knoxville Asian Festival",
+      "category": "Economic Impact Study",
+      "location": {
+        "city": "Knoxville",
+        "region": "Tennessee",
+        "country": "United States",
+        "regionCode": "TN",
+        "lat": 35.9606,
+        "lng": -83.9207
+      },
+      "count": 1,
+      "years": "2024",
+      "summary": "Economic impact study of a regional cultural festival.",
+      "tags": [
+        "Forecasting",
+        "Scenario Modeling",
+        "Survey Instrument Design",
+        "Public Finance & Tax Analysis"
+      ]
+    },
+    {
+      "id": "latitude-38-entertainment-bottlerock-impact",
+      "title": "BottleRock impact",
+      "client": "Latitude 38 Entertainment",
+      "category": "Economic Impact Study",
+      "location": {
+        "city": "Napa",
+        "region": "California",
+        "country": "United States",
+        "regionCode": "CA",
+        "lat": 38.2975,
+        "lng": -122.2869
+      },
+      "count": 2,
+      "years": "2024, 2026",
+      "summary": "Recurring economic impact study for the BottleRock Napa Valley music festival.",
+      "tags": [
+        "Scenario Modeling",
+        "Survey Instrument Design",
+        "Public Finance & Tax Analysis",
+        "Forecasting"
+      ]
+    },
+    {
+      "id": "niaaa-nfhs-conference-impact",
+      "title": "Conference impact",
+      "client": "NIAAA/NFHS",
+      "category": "Economic Impact Study",
+      "location": {
+        "city": "Austin",
+        "region": "Texas",
+        "country": "United States",
+        "regionCode": "TX",
+        "lat": 30.2672,
+        "lng": -97.7431
+      },
+      "count": 1,
+      "years": "2024",
+      "summary": "Economic impact study of a national athletic directors' conference, supporting a state reimbursement program application.",
+      "tags": [
+        "Forecasting",
+        "Scenario Modeling",
+        "Survey Instrument Design",
+        "Public Finance & Tax Analysis",
+        "Incentive Modeling & Forecasting"
+      ]
+    },
+    {
+      "id": "paramount-cma-cma-impact",
+      "title": "CMA impact",
+      "client": "Paramount/CMA",
+      "category": "Economic Impact Study",
+      "location": {
+        "city": "Austin",
+        "region": "Texas",
+        "country": "United States",
+        "regionCode": "TX",
+        "lat": 30.2672,
+        "lng": -97.7431
+      },
+      "count": 1,
+      "years": "2024",
+      "summary": "Economic impact study of the CMT Country Music Awards, supporting a state reimbursement program application.",
+      "tags": [
+        "Forecasting",
+        "Scenario Modeling",
+        "Survey Instrument Design",
+        "Public Finance & Tax Analysis",
+        "Incentive Modeling & Forecasting"
+      ]
+    },
+    {
+      "id": "tampere-finland-business-development",
+      "title": "Business development",
+      "client": "Tampere, Finland",
+      "category": "Economic Development",
+      "location": {
+        "city": "Tampere",
+        "region": "Pirkanmaa",
+        "country": "Finland",
+        "lat": 61.4978,
+        "lng": 23.761
+      },
+      "count": 1,
+      "years": "2024",
+      "summary": "Foreign direct investment promotion tour representing Finland's Tampere Region to Texas government and industry leaders, leading to a new Finnish consulate in Austin.",
+      "tags": [
+        "Benchmarking & Competitive Analysis",
+        "Database Management",
+        "Define Vision/Strategy",
+        "Due Diligence",
+        "Economic Development Incentives",
+        "Go-to-Market Strategy"
+      ]
+    },
+    {
+      "id": "terrell-edc-target-industry-analysis",
+      "title": "Target industry analysis",
+      "client": "Terrell EDC",
+      "category": "Economic Development",
+      "location": {
+        "city": "Terrell",
+        "region": "Texas",
+        "country": "United States",
+        "regionCode": "TX",
+        "lat": 32.7357,
+        "lng": -96.2753
+      },
+      "count": 2,
+      "years": "2024–2025",
+      "summary": "Target industry analysis supporting economic development recruitment.",
+      "tags": [
+        "Market Analysis",
+        "Market Intelligence",
+        "Strategic Recommendations"
+      ]
+    },
+    {
+      "id": "texas-association-of-business-exxon-ccus-scenario-mo",
+      "title": "Scenario modeling",
+      "client": "Texas Association of Business (Exxon - CCUS)",
+      "category": "Economic Impact Study",
+      "location": {
+        "city": "Austin",
+        "region": "Texas",
+        "country": "United States",
+        "regionCode": "TX",
+        "lat": 30.2672,
+        "lng": -97.7431
+      },
+      "count": 1,
+      "years": "",
+      "summary": "Economic Impact Study — Scenario modeling",
+      "tags": [
+        "Forecasting",
+        "Scenario Modeling",
+        "Public Finance & Tax Analysis",
+        "Legislative & Policy Analysis",
+        "Policy Implementation"
+      ]
+    },
+    {
+      "id": "texas-juvenile-justice-dept-tx-legislative-review",
+      "title": "TX legislative review",
+      "client": "Texas Juvenile Justice Dept",
+      "category": "Economic Impact Study",
+      "location": {
+        "city": "Austin",
+        "region": "Texas",
+        "country": "United States",
+        "regionCode": "TX",
+        "lat": 30.2672,
+        "lng": -97.7431
+      },
+      "count": 2,
+      "years": "2024–2025",
+      "summary": "Legislative compensation and workforce retention study for state juvenile justice staff.",
+      "tags": [
+        "Forecasting",
+        "Scenario Modeling",
+        "Public Finance & Tax Analysis",
+        "Legislative & Policy Analysis"
+      ]
+    },
+    {
+      "id": "belly-up-aspen-up-in-the-sky-impact",
+      "title": "Up in the Sky impact",
+      "client": "Belly Up Aspen",
+      "category": "Economic Impact Study",
+      "location": {
+        "city": "Aspen",
+        "region": "Colorado",
+        "country": "United States",
+        "regionCode": "CO",
+        "lat": 39.1911,
+        "lng": -106.8175
+      },
+      "count": 2,
+      "years": "2024–present",
+      "summary": "Annual economic impact studies for the Palm Tree Festival and Up in the Sky Festival.",
+      "tags": [
+        "Forecasting",
+        "Scenario Modeling",
+        "Survey Instrument Design",
+        "Public Finance & Tax Analysis"
+      ]
+    },
+    {
+      "id": "c3-presents-country-calling-impact",
+      "title": "Country Calling impact",
+      "client": "C3 Presents",
+      "category": "Economic Impact Study",
+      "location": {
+        "city": "Ocean City",
+        "region": "Maryland",
+        "country": "United States",
+        "regionCode": "MD",
+        "lat": 38.3365,
+        "lng": -75.0849
+      },
+      "count": 1,
+      "years": "2019–present",
+      "summary": "Annual economic impact studies for major U.S. music festivals including ACL, Lollapalooza, Sueños, Bonnaroo, Dreamville, and others, plus site selection support.",
+      "tags": [
+        "Machine Learning",
+        "Scenario Modeling",
+        "Survey Instrument Design",
+        "Public Finance & Tax Analysis"
+      ]
+    },
+    {
+      "id": "c3-presents-shaky-knees-impact",
+      "title": "Shaky Knees impact",
+      "client": "C3 Presents",
+      "category": "Economic Impact Study",
+      "location": {
+        "city": "Atlanta",
+        "region": "Georgia",
+        "country": "United States",
+        "regionCode": "GA",
+        "lat": 33.749,
+        "lng": -84.388
+      },
+      "count": 1,
+      "years": "2019–present",
+      "summary": "Annual economic impact studies for major U.S. music festivals including ACL, Lollapalooza, Sueños, Bonnaroo, Dreamville, and others, plus site selection support.",
+      "tags": [
+        "Machine Learning",
+        "Scenario Modeling",
+        "Survey Instrument Design",
+        "Public Finance & Tax Analysis"
+      ]
+    },
+    {
+      "id": "c3-presents-incentive-negotiations",
+      "title": "Incentive negotiations",
+      "client": "C3 Presents",
+      "category": "Site Selection",
+      "location": {
+        "city": "Austin",
+        "region": "Texas",
+        "country": "United States",
+        "regionCode": "TX",
+        "lat": 30.2672,
+        "lng": -97.7431
+      },
+      "count": 2,
+      "years": "2019–present",
+      "summary": "Annual economic impact studies for major U.S. music festivals including ACL, Lollapalooza, Sueños, Bonnaroo, Dreamville, and others, plus site selection support.",
+      "tags": [
+        "Due Diligence",
+        "Incentive Modeling & Forecasting",
+        "Market Analysis",
+        "Market Intelligence",
+        "New Growth Initiative/Strategy",
+        "Qualitative Data Analysis"
+      ]
+    },
+    {
+      "id": "major-league-soccer-mls-all-star-impact",
+      "title": "MLS All Star impact",
+      "client": "Major League Soccer",
+      "category": "Economic Impact Study",
+      "location": {
+        "city": "Austin",
+        "region": "Texas",
+        "country": "United States",
+        "regionCode": "TX",
+        "lat": 30.2672,
+        "lng": -97.7431
+      },
+      "count": 1,
+      "years": "2025",
+      "summary": "Economic impact study of the MLS All-Star event.",
+      "tags": [
+        "Machine Learning",
+        "Scenario Modeling",
+        "Survey Instrument Design",
+        "Public Finance & Tax Analysis",
+        "Incentive Modeling & Forecasting"
+      ]
+    },
+    {
+      "id": "project-austin-10-year-forecast",
+      "title": "10-Year Forecast",
+      "client": "Project Austin",
+      "category": "Economic Impact Study",
+      "location": {
+        "city": "Austin",
+        "region": "Texas",
+        "country": "United States",
+        "regionCode": "TX",
+        "lat": 30.2672,
+        "lng": -97.7431
+      },
+      "count": 1,
+      "years": "2025",
+      "summary": "10-year citywide economic forecast.",
+      "tags": [
+        "Forecasting",
+        "Scenario Modeling",
+        "Personnel Evaluation",
+        "Program Evaluation",
+        "Public Finance & Tax Analysis",
+        "Public-Private Partnerships (P3)"
+      ]
+    },
+    {
+      "id": "red-river-cultural-district-district-impact",
+      "title": "District impact",
+      "client": "Red River Cultural District",
+      "category": "Economic Impact Study",
+      "location": {
+        "city": "Austin",
+        "region": "Texas",
+        "country": "United States",
+        "regionCode": "TX",
+        "lat": 30.2672,
+        "lng": -97.7431
+      },
+      "count": 1,
+      "years": "2025",
+      "summary": "Economic impact study of a downtown Austin entertainment district.",
+      "tags": [
+        "Machine Learning",
+        "Scenario Modeling",
+        "Survey Instrument Design",
+        "Public Finance & Tax Analysis"
+      ]
+    },
+    {
+      "id": "rida-scenario-modeling-update",
+      "title": "Scenario modeling update",
+      "client": "RIDA",
+      "category": "Economic Impact Study",
+      "location": {
+        "city": "Austin",
+        "region": "Texas",
+        "country": "United States",
+        "regionCode": "TX",
+        "lat": 30.2672,
+        "lng": -97.7431
+      },
+      "count": 1,
+      "years": "2023, 2025",
+      "summary": "Scenario modeling for a real estate development project in eastern Travis County.",
+      "tags": [
+        "Cost-Benefit Analysis",
+        "Market Analysis",
+        "Public Finance & Tax Analysis"
+      ]
+    },
+    {
+      "id": "serverfarm-incentive-negotiations",
+      "title": "Incentive negotiations",
+      "client": "ServerFarm",
+      "category": "Site Selection",
+      "location": {
+        "city": "Houston",
+        "region": "Texas",
+        "country": "United States",
+        "regionCode": "TX",
+        "lat": 29.7604,
+        "lng": -95.3698
+      },
+      "count": 1,
+      "years": "2025",
+      "summary": "Site selection and incentive negotiation support for a data center project.",
+      "tags": [
+        "Market Analysis",
+        "Incentive Modeling & Forecasting",
+        "Strategic Recommendations"
+      ]
+    },
+    {
+      "id": "united-center-chicago-arena-impact",
+      "title": "Arena impact",
+      "client": "United Center (Chicago)",
+      "category": "Economic Impact Study",
+      "location": {
+        "city": "Chicago",
+        "region": "Illinois",
+        "country": "United States",
+        "regionCode": "IL",
+        "lat": 41.8781,
+        "lng": -87.6298
+      },
+      "count": 1,
+      "years": "2025",
+      "summary": "Economic impact study of a major sports and entertainment arena.",
+      "tags": [
+        "Scenario Modeling",
+        "Public Finance & Tax Analysis",
+        "Market Analysis",
+        "Strategic Recommendations",
+        "Legislative & Policy Analysis"
+      ]
+    },
+    {
+      "id": "white-rocks-amphitheatre-financial-modeling",
+      "title": "Financial modeling",
+      "client": "White Rocks Amphitheatre",
+      "category": "Feasibility Analysis",
+      "location": {
+        "city": "Austin",
+        "region": "Texas",
+        "country": "United States",
+        "regionCode": "TX",
+        "lat": 30.2672,
+        "lng": -97.7431
+      },
+      "count": 1,
+      "years": "2025",
+      "summary": "Feasibility and financial modeling study for a proposed music venue.",
+      "tags": [
+        "Scenario Modeling",
+        "Public Finance & Tax Analysis"
+      ]
+    },
+    {
+      "id": "baylor-university-bic-grant-impact",
+      "title": "Grant impact",
+      "client": "Baylor University BIC",
+      "category": "Economic Impact Study",
+      "location": {
+        "city": "Waco",
+        "region": "Texas",
+        "country": "United States",
+        "regionCode": "TX",
+        "lat": 31.5493,
+        "lng": -97.1467
+      },
+      "count": 1,
+      "years": "2026",
+      "summary": "Economic impact study of a university-affiliated business and innovation grant program.",
+      "tags": [
+        "Scenario Modeling",
+        "Public Finance & Tax Analysis"
+      ]
+    },
+    {
+      "id": "exxon-update-of-original-study-process-permitting-im",
+      "title": "Update of original study, process & permitting impacts, EDC meetings",
+      "client": "Exxon",
+      "category": "Economic Impact Study",
+      "location": {
+        "city": "Houston",
+        "region": "Texas",
+        "country": "United States",
+        "regionCode": "TX",
+        "lat": 29.7604,
+        "lng": -95.3698
+      },
+      "count": 1,
+      "years": "2024, 2026",
+      "summary": "Statewide economic impact analysis of carbon capture, utilization, and storage (CCUS) projects.",
+      "tags": [
+        "Cost-Benefit Analysis",
+        "Benchmarking & Competitive Analysis",
+        "Forecasting",
+        "Legislative & Policy Analysis",
+        "Market Analysis",
+        "Market Intelligence"
+      ]
+    },
+    {
+      "id": "texas-state-university-cola-college-impact",
+      "title": "College impact",
+      "client": "Texas State University COLA",
+      "category": "Economic Impact Study",
+      "location": {
+        "city": "San Marcos",
+        "region": "Texas",
+        "country": "United States",
+        "regionCode": "TX",
+        "lat": 29.8833,
+        "lng": -97.9414
+      },
+      "count": 1,
+      "years": "2026",
+      "summary": "Economic impact study of a university college's regional contribution.",
+      "tags": [
+        "Scenario Modeling",
+        "Public Finance & Tax Analysis"
+      ]
+    },
+    {
+      "id": "rodeo-austin-rodeo-impact-site-selection",
+      "title": "Rodeo impact & site selection",
+      "client": "Rodeo Austin",
+      "category": "Economic Impact Study",
+      "location": {
+        "city": "Austin",
+        "region": "Texas",
+        "country": "United States",
+        "regionCode": "TX",
+        "lat": 30.2672,
+        "lng": -97.7431
+      },
+      "count": 1,
+      "years": "2026",
+      "summary": "Economic impact study and site selection support for the regional rodeo.",
+      "tags": [
+        "Forecasting",
+        "Scenario Modeling",
+        "Public Finance & Tax Analysis"
+      ]
+    },
+    {
+      "id": "c3-presents-sips-sounds",
+      "title": "Sips & Sounds",
+      "client": "C3 Presents",
+      "category": "Economic Impact Study",
+      "location": {
+        "city": "Austin",
+        "region": "Texas",
+        "country": "United States",
+        "regionCode": "TX",
+        "lat": 30.2672,
+        "lng": -97.7431
+      },
+      "count": 1,
+      "years": "2019–present",
+      "summary": "Annual economic impact studies for major U.S. music festivals including ACL, Lollapalooza, Sueños, Bonnaroo, Dreamville, and others, plus site selection support.",
+      "tags": [
+        "Forecasting",
+        "Scenario Modeling",
+        "Public Finance & Tax Analysis"
+      ]
+    },
+    {
+      "id": "circuit-of-the-americas-sro-impact",
+      "title": "SRO impact",
+      "client": "Circuit of the Americas",
+      "category": "Economic Impact Study",
+      "location": {
+        "city": "Austin",
+        "region": "Texas",
+        "country": "United States",
+        "regionCode": "TX",
+        "lat": 30.2672,
+        "lng": -97.7431
+      },
+      "count": 1,
+      "years": "2019–present",
+      "summary": "Annual economic impact studies for F1 United States Grand Prix, MotoGP, NASCAR, MotoAmerica, and WEC, supporting state event reimbursement applications.",
+      "tags": [
+        "Forecasting",
+        "Scenario Modeling",
+        "Survey Instrument Design",
+        "Public Finance & Tax Analysis",
+        "Incentive Modeling & Forecasting"
+      ]
+    },
+    {
+      "id": "palm-tree-music-festival-palm-tree-west-palm-beach-i",
+      "title": "Palm Tree West Palm Beach impact",
+      "client": "Palm Tree Music Festival",
+      "category": "Economic Impact Study",
+      "location": {
+        "city": "West Palm Beach",
+        "region": "Florida",
+        "country": "United States",
+        "regionCode": "FL",
+        "lat": 26.7153,
+        "lng": -80.0534
+      },
+      "count": 1,
+      "years": "2026",
+      "summary": "Economic impact study of a regional music festival.",
+      "tags": [
+        "Forecasting",
+        "Scenario Modeling",
+        "Public Finance & Tax Analysis"
+      ]
+    },
+    {
+      "id": "timberline-real-estate-partners-mixed-use-developmen",
+      "title": "Mixed use development",
+      "client": "Timberline Real Estate Partners",
+      "category": "Economic Impact Study",
+      "location": {
+        "city": "Austin",
+        "region": "Texas",
+        "country": "United States",
+        "regionCode": "TX",
+        "lat": 30.2672,
+        "lng": -97.7431
+      },
+      "count": 1,
+      "years": "2026",
+      "summary": "Economic impact study of a proposed mixed-use development.",
+      "tags": [
+        "Scenario Modeling",
+        "Cost-Benefit Analysis",
+        "Forecasting",
+        "Legislative & Policy Analysis",
+        "Market Analysis",
+        "Market Intelligence"
+      ]
+    },
+    {
+      "id": "circuit-of-the-americas-2027-abb-fia-formula-e-world",
+      "title": "2027 ABB FIA Formula E World Championship impact",
+      "client": "Circuit of the Americas",
+      "category": "Economic Impact Study",
+      "location": {
+        "city": "Austin",
+        "region": "Texas",
+        "country": "United States",
+        "regionCode": "TX",
+        "lat": 30.2672,
+        "lng": -97.7431
+      },
+      "count": 1,
+      "years": "2019–present",
+      "summary": "Annual economic impact studies for F1 United States Grand Prix, MotoGP, NASCAR, MotoAmerica, and WEC, supporting state event reimbursement applications.",
+      "tags": []
+    },
+    {
+      "id": "provident-data-center-impact",
+      "title": "Data center impact",
+      "client": "Provident",
+      "category": "Economic Impact Study",
+      "location": {
+        "city": "Dallas",
+        "region": "Texas",
+        "country": "United States",
+        "regionCode": "TX",
+        "lat": 32.7767,
+        "lng": -96.797
+      },
+      "count": 1,
+      "years": "2026",
+      "summary": "Economic impact study of a data center project, focused on school district bonding capacity.",
+      "tags": []
+    },
+    {
+      "id": "still-austin-whiskey-distillery-expansion-impact",
+      "title": "Distillery expansion impact",
+      "client": "Still Austin Whiskey",
+      "category": "Economic Impact Study",
+      "location": {
+        "city": "Lockhart",
+        "region": "Texas",
+        "country": "United States",
+        "regionCode": "TX",
+        "lat": 29.8858,
+        "lng": -97.67
+      },
+      "count": 1,
+      "years": "2026",
+      "summary": "Preliminary economic impact study of a distillery expansion.",
+      "tags": []
+    },
+    {
+      "id": "south-by-southwest-25000",
+      "title": "25000",
+      "client": "South By Southwest",
+      "category": "Economic Impact Study",
+      "location": {
+        "city": "Austin",
+        "region": "Texas",
+        "country": "United States",
+        "regionCode": "TX",
+        "lat": 30.2672,
+        "lng": -97.7431
+      },
+      "count": 1,
+      "years": "2026",
+      "summary": "Economic impact study of Austin's globally renowned annual festival blending music, film, technology, and interactive media.",
+      "tags": []
+    },
+    {
+      "id": "penske-corporation-2026-arlington-grand-prix-impact",
+      "title": "2026 Arlington Grand Prix impact",
+      "client": "Penske Corporation",
+      "category": "Economic Impact Study",
+      "location": {
+        "city": "Arlington",
+        "region": "Texas",
+        "country": "United States",
+        "regionCode": "TX",
+        "lat": 32.7357,
+        "lng": -97.1081
+      },
+      "count": 1,
+      "years": "2026",
+      "summary": "Economic impact study of the first-of-its-kind street race launched by Penske Entertainment in partnership with the Dallas Cowboys and Texas Rangers.",
+      "tags": []
+    }
+  ]
+}
