@@ -67,9 +67,13 @@
     <div class="hero__intro">
       <p class="hero__eyebrow">
         <span class="hero__eyebrow-label">I am</span>
-        <span class="hero__eyebrow-animated" aria-label="an Economist, a Strategist, a Public Voice">
+        <!-- js/main.js cycles these, animating one letter at a time.
+             The plain spans are the no-JS fallback. -->
+        <span class="hero__eyebrow-animated" id="heroTitles"
+              aria-label="an Economist, a Strategist, a Geographer, a Public Voice">
           <span>an Economist</span>
           <span>a Strategist</span>
+          <span>a Geographer</span>
           <span>a Public Voice</span>
         </span>
       </p>

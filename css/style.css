@@ -282,38 +282,78 @@ section { padding: 5rem 1.5rem; max-width: var(--max-width); margin: 0 auto; }
   position: relative;
   display: inline-block;
   min-width: 11.5rem;
-  height: 1.4em;
+  /* Match the inherited line-height (1.6) so this box is exactly as
+     tall as the "I am" label's line box. Both are then centred as
+     equal-height flex items, which puts the two on the same baseline. */
+  height: 1.6em;
   overflow: hidden;
-}
-
-.hero__eyebrow-animated span {
-  position: absolute;
-  left: 0;
-  top: 0;
-  opacity: 0;
   white-space: nowrap;
-  transform: translateY(12px);
-  animation: rotateHeroTitle 9s infinite;
   color: var(--color-accent);
 }
 
-.hero__eyebrow-animated span:nth-child(1) { animation-delay: 0s; }
-.hero__eyebrow-animated span:nth-child(2) { animation-delay: 3s; }
-.hero__eyebrow-animated span:nth-child(3) { animation-delay: 6s; }
+/* Before JS runs (and if it never does) only the first title shows, so
+   the line never collapses or stacks. These rules must exclude the
+   generated word, which is also a direct child span — otherwise they
+   would hide the very thing being animated. */
+.hero__eyebrow-animated > span {
+  position: absolute;
+  left: 0;
+  top: 0;
+  /* Fill the box and keep the inherited line-height, so the glyphs sit
+     on the same baseline as the label instead of at the box's top edge. */
+  height: 100%;
+  line-height: inherit;
+  white-space: nowrap;
+  color: var(--color-accent);
+}
+.hero__eyebrow-animated > span:not(:first-child):not(.hero__eyebrow-word) { opacity: 0; }
 
-@keyframes rotateHeroTitle {
-  0%, 20% {
-    opacity: 0;
-    transform: translateY(12px);
-  }
-  25%, 45% {
+/* Once JS takes over it renders one title at a time as individual
+   letters, each with its own staggered delay set inline. */
+.hero__eyebrow-animated.is-live > span:not(.hero__eyebrow-word) { display: none; }
+.hero__eyebrow-animated.is-live .hero__eyebrow-word {
+  position: absolute;
+  left: 0;
+  top: 0;
+  height: 100%;
+  line-height: inherit;
+  display: block;
+  white-space: pre;
+}
+.hero__eyebrow-animated .hero__eyebrow-letter {
+  display: inline-block;
+  white-space: pre;
+  opacity: 0;
+  transform: translateY(0.35em) scale(0.86);
+  animation: heroLetterIn 0.34s cubic-bezier(0.2, 0.9, 0.3, 1.3) forwards;
+}
+/* Exit: the whole word leaves together, so it doesn't out-stay the
+   next title typing in behind it. */
+.hero__eyebrow-animated .hero__eyebrow-word.is-leaving {
+  animation: heroWordOut 0.28s ease forwards;
+}
+
+@keyframes heroLetterIn {
+  to {
     opacity: 1;
-    transform: translateY(0);
+    transform: translateY(0) scale(1);
   }
-  50%, 100% {
+}
+
+@keyframes heroWordOut {
+  to {
     opacity: 0;
-    transform: translateY(-12px);
+    transform: translateY(-0.3em);
   }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .hero__eyebrow-animated .hero__eyebrow-letter {
+    animation: none;
+    opacity: 1;
+    transform: none;
+  }
+  .hero__eyebrow-animated .hero__eyebrow-word.is-leaving { animation: none; opacity: 0; }
 }
 
 .hero__name {
