@@ -135,7 +135,7 @@ function renderInternational(projects) {
   }
   host.hidden = false;
   host.innerHTML = `
-    <h3 class="map-international__heading">Also working internationally</h3>
+    <h3 class="map-international__heading">SELECT INTERNATIONAL PROJECTS</h3>
     <ul class="map-international__list">
       ${intl
         .map(
