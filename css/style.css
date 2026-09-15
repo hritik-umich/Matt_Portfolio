@@ -575,7 +575,7 @@ section { padding: 5rem 1.5rem; max-width: var(--max-width); margin: 0 auto; }
   margin-bottom: 0.15rem;
 }
 /* "x7" — how many times a recurring project ran */
-.map-tooltip__runs {
+.map-tooltip__years {
   display: inline-block;
   margin-left: 0.4rem;
   padding: 0.05rem 0.35rem;

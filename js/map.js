@@ -190,7 +190,8 @@ function paintHeatMap(projects) {
       path.classList.add("has-projects");
       path.style.fill = heatFill(n, maxCount);
       path.setAttribute("tabindex", "0");
-      path.setAttribute("aria-label", `${n} project${n === 1 ? "" : "s"} in ${stateNameOf(path)}`);
+      const engagements = group.length;
+      path.setAttribute("aria-label", `${engagements} engagement${engagements === 1 ? "" : "s"} in ${stateNameOf(path)}`);
     } else {
       path.classList.remove("has-projects");
       path.style.fill = "";
@@ -220,24 +221,26 @@ function tooltipHtml(path, group, pinned) {
     .slice()
     .sort((a, b) => (b.count || 1) - (a.count || 1))
     .map((p) => {
-      const runs = (p.count || 1) > 1 ? `<span class="map-tooltip__runs">&times;${p.count}</span>` : "";
+      // Each entry is one engagement, however many workbook rows it spans
+      // (Kemmerer's three rows are one multi-year engagement), so show
+      // when it ran rather than a row count.
+      const years = (p.count || 1) > 1 && p.years ? `<span class="map-tooltip__years">${p.years}</span>` : "";
       const place = [p.client !== p.title ? p.client : null, p.location.city].filter(Boolean).join(" &middot; ");
       return `
         <li>
-          <span class="map-tooltip__title">${p.title}${runs}</span>
+          <span class="map-tooltip__title">${p.title}${years}</span>
           ${place ? `<span class="map-tooltip__place">${place}</span>` : ""}
           <span class="map-tooltip__summary">${p.summary}</span>
         </li>`;
     })
     .join("");
   const closeBtn = pinned ? `<button type="button" class="map-tooltip__close" aria-label="Close">&times;</button>` : "";
-  const n = instancesIn(group);
-  const detail = group.length === n ? "" : ` across ${group.length} engagements`;
+  const n = group.length;
 
   return `
     ${closeBtn}
     <strong>${stateName}</strong>
-    <span class="map-tooltip__count">${n} project${n === 1 ? "" : "s"}${detail}</span>
+    <span class="map-tooltip__count">${n} engagement${n === 1 ? "" : "s"}</span>
     <ul class="map-tooltip__list">${items}</ul>
   `;
 }
