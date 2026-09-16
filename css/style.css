@@ -265,7 +265,12 @@ section { padding: 5rem 1.5rem; max-width: var(--max-width); margin: 0 auto; }
 .hero__eyebrow {
   display: flex;
   align-items: center;
-  gap: 0.55rem;
+  /* Centred as a group over the name below it. The animated box keeps a
+     fixed width, so "I am" holds still while the titles cycle. */
+  justify-content: center;
+  /* No flex gap: the separator is a real mono space appended to the
+     label, so it matches the spacing inside "I am" exactly. */
+  gap: 0;
   flex-wrap: wrap;
   color: var(--color-accent);
   font-family: var(--font-mono);
@@ -277,11 +282,16 @@ section { padding: 5rem 1.5rem; max-width: var(--max-width); margin: 0 auto; }
 .hero__eyebrow-label {
   color: var(--color-text-muted);
 }
+/* One non-breaking space, same advance width as the space in "I am". */
+.hero__eyebrow-label::after { content: "\00a0"; }
 
 .hero__eyebrow-animated {
   position: relative;
   display: inline-block;
-  min-width: 11.5rem;
+  /* Just wide enough for the longest title ("a Public Voice", 14 mono
+     characters plus its letter-spacing) so the box holds a steady width
+     without leaving a gap after "I am". */
+  min-width: 16ch;
   /* Match the inherited line-height (1.6) so this box is exactly as
      tall as the "I am" label's line box. Both are then centred as
      equal-height flex items, which puts the two on the same baseline. */
@@ -298,6 +308,10 @@ section { padding: 5rem 1.5rem; max-width: var(--max-width); margin: 0 auto; }
 .hero__eyebrow-animated > span {
   position: absolute;
   left: 0;
+  right: 0;
+  /* Left-aligned inside the fixed-width box, so every title starts
+     immediately after that single space. */
+  text-align: left;
   top: 0;
   /* Fill the box and keep the inherited line-height, so the glyphs sit
      on the same baseline as the label instead of at the box's top edge. */
@@ -314,6 +328,8 @@ section { padding: 5rem 1.5rem; max-width: var(--max-width); margin: 0 auto; }
 .hero__eyebrow-animated.is-live .hero__eyebrow-word {
   position: absolute;
   left: 0;
+  right: 0;
+  text-align: left;
   top: 0;
   height: 100%;
   line-height: inherit;
