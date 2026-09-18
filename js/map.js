@@ -162,8 +162,9 @@ function updateStats(stats) {
     if (el && value !== null && value !== undefined) el.textContent = value;
   };
   set("statValue", stats.totalValueLabel);
-  set("statProjects", stats.totalProjects);
-  set("statStudies", stats.impactStudies);
+  // Prefer the rounded display labels; the exact totals stay in the data.
+  set("statProjects", stats.totalProjectsLabel || stats.totalProjects);
+  set("statStudies", stats.impactStudiesLabel || stats.impactStudies);
   set("statPlaces", stats.statesWorked);
 }
 

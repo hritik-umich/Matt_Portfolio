@@ -2,10 +2,12 @@
   "_readme": "Generated from data/AE Project Management.xlsx — do not hand-edit. projects[] = 'Map Data' sheet (client engagements, curated hover copy) and drives the Selected Work cards + international list. mapProjects[] = 'Raw Data' sheet, every project row grouped by client + project detail (count = how many times that project ran), and drives the state heat map. stats{} = 'Project Statistics' sheet.",
   "stats": {
     "totalProjects": 159,
+    "totalProjectsLabel": "150+",
     "totalValue": 9860725,
     "totalValueLabel": "$9.8M+",
     "statesWorked": 24,
     "impactStudies": 109,
+    "impactStudiesLabel": "100+",
     "statesShaded": 24,
     "mapProjectInstancesUS": 159
   },
